@@ -1,6 +1,23 @@
 {
-  "generated_at": "2026-03-16T17:02:40.294922",
+  "generated_at": "2026-03-16T17:04:12.289863",
   "server_id": "1314528348319514684",
-  "count": 0,
-  "events": []
+  "count": 1,
+  "events": [
+    {
+      "id": 162,
+      "thread_id": "1483148893427470390",
+      "title": "WDH",
+      "start_at": "2026-03-16T18:08:40.999177+01:00",
+      "end_at": null,
+      "location_name": "Battle Bear Trading Cards & Games",
+      "location_address": "Fruchthallstra\u00dfe 31, 67655 Kaiserslautern, Deutschland",
+      "location_city": "Kaiserslautern",
+      "event_type": null,
+      "formats": [
+        "Pioneer"
+      ],
+      "url": null,
+      "image_url": null
+    }
+  ]
 }
