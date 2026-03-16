@@ -1,6 +1,23 @@
 {
-  "generated_at": "2026-03-16T20:32:43.959376",
+  "generated_at": "2026-03-16T20:34:11.386649",
   "server_id": "1314528348319514684",
-  "count": 0,
-  "events": []
+  "count": 1,
+  "events": [
+    {
+      "id": 181,
+      "thread_id": "1483201737518219336",
+      "title": "Test Wiederholend",
+      "start_at": "2026-03-16T21:34:07.265327+01:00",
+      "end_at": null,
+      "location_name": "Zweibr\u00fccken",
+      "location_address": "66482 Zweibr\u00fccken, Deutschland",
+      "location_city": "Zweibr\u00fccken",
+      "event_type": null,
+      "formats": [
+        "Pioneer"
+      ],
+      "url": null,
+      "image_url": null
+    }
+  ]
 }
