@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Radio Ravnica Paper Events</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=IBM+Plex+Mono:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+      crossorigin=""
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="bg-grid"></div>
+    <main class="layout">
+      <header class="hero">
+        <p class="eyebrow">Radio Ravnica</p>
+        <h1>Paper Events Calendar</h1>
+        <p class="subtitle">Pulled from your bot database and published as a static GitHub Pages website.</p>
+      </header>
+
+      <section class="toolbar" aria-label="Filters">
+        <label>
+          <span>City</span>
+          <input id="city-filter" type="text" placeholder="Type city name" />
+        </label>
+        <label>
+          <span>Format</span>
+          <select id="format-filter">
+            <option value="">Alle Formate</option>
+          </select>
+        </label>
+        <label>
+          <span>Your Location (ZIP or City)</span>
+          <input id="distance-location" type="text" placeholder="e.g. 50667 or Cologne" />
+        </label>
+        <label>
+          <span>Max Distance</span>
+          <select id="distance-km">
+            <option value="0">No distance filter</option>
+            <option value="25">25 km</option>
+            <option value="50">50 km</option>
+            <option value="100">100 km</option>
+            <option value="150">150 km</option>
+            <option value="200">200 km</option>
+            <option value="300">300 km</option>
+          </select>
+        </label>
+        <div class="toolbar-actions">
+          <button id="apply-distance" type="button">Apply Distance Filter</button>
+          <button id="clear-distance" type="button" class="ghost">Clear</button>
+        </div>
+      </section>
+
+      <section>
+        <div id="meta" class="meta"></div>
+        <div id="map-meta" class="map-meta"></div>
+        <div id="events-map" class="events-map" aria-label="Event locations map"></div>
+        <div id="events" class="cards"></div>
+      </section>
+    </main>
+
+    <template id="event-card-template">
+      <article class="card">
+        <div class="card-head">
+          <h2 class="title"></h2>
+          <p class="type"></p>
+        </div>
+        <p class="date"></p>
+        <p class="location"></p>
+        <p class="distance"></p>
+        <p class="formats"></p>
+        <a class="event-link" target="_blank" rel="noopener noreferrer">View event</a>
+      </article>
+    </template>
+
+    <script
+      src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+      integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+      crossorigin=""
+    ></script>
+    <script src="./app.js"></script>
+  </body>
+</html>

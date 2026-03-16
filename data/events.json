@@ -1,0 +1,102 @@
+{
+  "generated_at": "2026-03-16T10:06:11.561004",
+  "server_id": "783441128119730236",
+  "count": 6,
+  "events": [
+    {
+      "id": 2,
+      "thread_id": "1433812691490967584",
+      "title": "gamescom lan 2026 - TCG Area",
+      "start_at": "2026-03-20T00:00:00+01:00",
+      "end_at": "2026-03-22T00:00:00+01:00",
+      "location_name": "Cologne Fair",
+      "location_address": "Messeplatz 1, K\u00f6ln",
+      "location_city": "K\u00f6ln",
+      "event_type": "Andere",
+      "formats": [
+        "Commander",
+        "Andere"
+      ],
+      "url": "https://gcl26tcgtickets.eventbrite.de",
+      "image_url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1167133423%2F2272515327093%2F1%2Foriginal.20251031-092521?crop=focalpoint&fit=crop&w=940&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.242&fp-y=0.476&s=e7e7b3f01f5e96736b13181d7b6fc313"
+    },
+    {
+      "id": 4,
+      "thread_id": "1467851038731141227",
+      "title": "Pauper Pit Fight",
+      "start_at": "2026-03-22T12:00:00+01:00",
+      "end_at": null,
+      "location_name": "Dragonlord Games",
+      "location_address": "Mainzer Stra\u00dfe 39, Saarbr\u00fccken",
+      "location_city": "Saarbr\u00fccken",
+      "event_type": "Andere",
+      "formats": [
+        "Pauper"
+      ],
+      "url": null,
+      "image_url": "https://cdn.discordapp.com/attachments/1467849108093145183/1467849331066278020/Pauper_Pit_Fight_2026.jpg?ex=6981e0b7&is=69808f37&hm=2af91d2c3605f894aa991bef34facbd6cecd24d869cc0cfa4d874b72b134ff67&"
+    },
+    {
+      "id": 9,
+      "thread_id": "1479462725045326037",
+      "title": "Pauper Bande Kassel #1",
+      "start_at": "2026-04-11T11:00:00+02:00",
+      "end_at": null,
+      "location_name": "Kirche Kirchditmold",
+      "location_address": "Schanzenstra\u00dfe 1, Kassel",
+      "location_city": "Kassel",
+      "event_type": null,
+      "formats": [
+        "Pauper"
+      ],
+      "url": "https://www.reddit.com/r/Pauper/comments/1rlttaw/invitation_to_the_first_tournament_of_the_pauper/",
+      "image_url": "https://preview.redd.it/invitation-to-the-first-tournament-of-the-pauper-bande-v0-w7oy0b32lang1.jpeg?width=1080&crop=smart&auto=webp&s=cd30b6fe4eba12c6ef88fda6a474897a0a2ff901"
+    },
+    {
+      "id": 10,
+      "thread_id": "1479811669218689077",
+      "title": "Pauper Spezl #3",
+      "start_at": "2026-04-24T12:00:00+02:00",
+      "end_at": null,
+      "location_name": "Deck&Dice Munich",
+      "location_address": "Grillparzerstra\u00dfe 14, M\u00fcnchen",
+      "location_city": "M\u00fcnchen",
+      "event_type": null,
+      "formats": [
+        "Pauper"
+      ],
+      "url": "https://pauper-spezl.de/",
+      "image_url": "https://media.discordapp.net/attachments/1310488840443789344/1479806700776198325/preview2.png?ex=69ad60e2&is=69ac0f62&hm=7d8d6c8756dc3cfb53f308d7070b7ff00cb86440147371608a915882c219dcce&=&format=webp&quality=lossless&width=1080&height=1080"
+    },
+    {
+      "id": 11,
+      "thread_id": "1480934038268153878",
+      "title": "Modern RCQ",
+      "start_at": "2026-06-14T10:30:00+02:00",
+      "end_at": null,
+      "location_name": "Lindhooper Str. 7",
+      "location_address": "Lindhooper Stra\u00dfe 7, Verden (Aller)",
+      "location_city": "Verden (Aller)",
+      "event_type": "RCQ",
+      "formats": [
+        "Modern"
+      ],
+      "url": "https://www.tappzeit.de/14-06-2026-TAPPZEIT-Modern-RCQ.html",
+      "image_url": null
+    },
+    {
+      "id": 1,
+      "thread_id": "1385872816926101596",
+      "title": "Magic Con Amsterdam",
+      "start_at": "2026-07-17T00:00:00+02:00",
+      "end_at": "2026-07-19T00:00:00+02:00",
+      "location_name": "Amsterdam",
+      "location_address": "Amsterdam",
+      "location_city": "Amsterdam",
+      "event_type": "Pro Tour",
+      "formats": [],
+      "url": null,
+      "image_url": "https://i.ytimg.com/vi/aC7lecbmXvE/maxresdefault.jpg"
+    }
+  ]
+}
