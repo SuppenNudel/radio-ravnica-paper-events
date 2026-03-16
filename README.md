@@ -1,5 +1,7 @@
 # Radio Ravnica Paper Events
 
+Live site: https://suppennudel.github.io/radio-ravnica-paper-events/
+
 Static website for Magic: The Gathering paper events, intended for deployment via GitHub Pages.
 
 The frontend reads event data from [data/events.json](data/events.json). There is no backend in this repository.
