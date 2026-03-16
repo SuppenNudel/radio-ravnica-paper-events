@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-03-16T20:28:30.060404",
+  "generated_at": "2026-03-16T20:28:55.578349",
   "server_id": "1314528348319514684",
-  "count": 5,
+  "count": 6,
   "events": [
     {
       "id": 174,
@@ -72,6 +72,22 @@
       "thread_id": "1483200279422959718",
       "title": "Wiederholend",
       "start_at": "2026-03-16T21:28:53.633606+01:00",
+      "end_at": null,
+      "location_name": "McDonald's",
+      "location_address": "Barriestra\u00dfe 1, 66482 Zweibr\u00fccken, Deutschland",
+      "location_city": "Zweibr\u00fccken",
+      "event_type": null,
+      "formats": [
+        "Standard"
+      ],
+      "url": null,
+      "image_url": null
+    },
+    {
+      "id": 179,
+      "thread_id": "1483200412596179133",
+      "title": "Wiederholend",
+      "start_at": "2026-03-16T21:29:53.633606+01:00",
       "end_at": null,
       "location_name": "McDonald's",
       "location_address": "Barriestra\u00dfe 1, 66482 Zweibr\u00fccken, Deutschland",
