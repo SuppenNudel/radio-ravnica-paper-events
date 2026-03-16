@@ -27,7 +27,7 @@ Then open `http://localhost:8000`.
 
 This repository is connected to:
 
-- `https://github.com/SuppenNudel/-radio-ravnica-paper-events.git`
+- `https://github.com/SuppenNudel/radio-ravnica-paper-events.git`
 
 Typical first push:
 
