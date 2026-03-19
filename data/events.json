@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-19T10:28:06.090911",
+  "generated_at": "2026-03-19T10:28:48.798043",
   "server_id": "783441128119730236",
   "count": 6,
   "events": [
@@ -87,7 +87,7 @@
       "start_at": "2026-06-14T10:30:00+02:00",
       "end_at": null,
       "location_name": "Lindhooper Str. 7",
-      "location_address": "Verden (Aller), Lindhooper Stra\u00dfe 7",
+      "location_address": "Lindhooper Str. 7, 27283 Verden (Aller), Deutschland",
       "location_city": "Verden (Aller)",
       "location_country": "Deutschland",
       "location_lat": 52.9229683,
@@ -97,7 +97,7 @@
         "Modern"
       ],
       "url": "https://www.tappzeit.de/14-06-2026-TAPPZEIT-Modern-RCQ.html",
-      "image_url": null
+      "image_url": "https://www.tappzeit.de/images/product_images/info_images/rcg_location.png"
     },
     {
       "id": 1,
