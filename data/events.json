@@ -1,28 +1,8 @@
 {
-  "generated_at": "2026-03-19T23:07:00.013922",
+  "generated_at": "2026-03-20T02:41:23.332775",
   "server_id": "783441128119730236",
-  "count": 7,
+  "count": 6,
   "events": [
-    {
-      "id": 2,
-      "thread_id": "1433812691490967584",
-      "title": "gamescom lan 2026 - TCG Area",
-      "start_at": "2026-03-20T00:00:00+01:00",
-      "end_at": "2026-03-22T00:00:00+01:00",
-      "location_name": "Cologne Fair",
-      "location_address": "K\u00f6ln, Messeplatz 1",
-      "location_city": "K\u00f6ln",
-      "location_country": "Deutschland",
-      "location_lat": 50.9466048,
-      "location_lng": 6.980404699999999,
-      "event_type": "Andere",
-      "formats": [
-        "Commander",
-        "Andere"
-      ],
-      "url": "https://gcl26tcgtickets.eventbrite.de",
-      "image_url": null
-    },
     {
       "id": 4,
       "thread_id": "1467851038731141227",
