@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-20T02:41:23.332775",
+  "generated_at": "2026-03-20T07:45:50.957158",
   "server_id": "783441128119730236",
   "count": 6,
   "events": [
@@ -15,6 +15,9 @@
       "location_country": "Deutschland",
       "location_lat": 49.2306859,
       "location_lng": 7.0024686,
+      "fee_from": 20.0,
+      "fee_to": null,
+      "fee_currency": "EUR",
       "event_type": "Andere",
       "formats": [
         "Pauper"
@@ -34,6 +37,9 @@
       "location_country": "Deutschland",
       "location_lat": 50.578105,
       "location_lng": 8.6655664,
+      "fee_from": null,
+      "fee_to": null,
+      "fee_currency": null,
       "event_type": null,
       "formats": [
         "Pauper"
@@ -53,6 +59,9 @@
       "location_country": "Deutschland",
       "location_lat": 51.3228377,
       "location_lng": 9.444754999999999,
+      "fee_from": null,
+      "fee_to": null,
+      "fee_currency": null,
       "event_type": null,
       "formats": [
         "Pauper"
@@ -72,6 +81,9 @@
       "location_country": "Deutschland",
       "location_lat": 48.1344041,
       "location_lng": 11.6106789,
+      "fee_from": 15.0,
+      "fee_to": null,
+      "fee_currency": "EUR",
       "event_type": null,
       "formats": [
         "Pauper"
@@ -91,6 +103,9 @@
       "location_country": "Deutschland",
       "location_lat": 52.9229683,
       "location_lng": 9.2384383,
+      "fee_from": 25.0,
+      "fee_to": null,
+      "fee_currency": "EUR",
       "event_type": "RCQ",
       "formats": [
         "Modern"
@@ -110,6 +125,9 @@
       "location_country": "Niederlande",
       "location_lat": 52.3415512,
       "location_lng": 4.8876876,
+      "fee_from": null,
+      "fee_to": null,
+      "fee_currency": null,
       "event_type": "Pro Tour",
       "formats": [
         "Andere"
