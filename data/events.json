@@ -1,30 +1,8 @@
 {
-  "generated_at": "2026-03-22T02:43:03.382527",
+  "generated_at": "2026-03-22T19:08:22.051464",
   "server_id": "783441128119730236",
   "count": 6,
   "events": [
-    {
-      "id": 4,
-      "thread_id": "1467851038731141227",
-      "title": "Pauper Pit Fight",
-      "start_at": "2026-03-22T12:00:00+01:00",
-      "end_at": null,
-      "location_name": "Dragonlord Games",
-      "location_address": "Saarbr\u00fccken, Mainzer Stra\u00dfe 39",
-      "location_city": "Saarbr\u00fccken",
-      "location_country": "Deutschland",
-      "location_lat": 49.2306859,
-      "location_lng": 7.0024686,
-      "fee_from": 20.0,
-      "fee_to": null,
-      "fee_currency": "EUR",
-      "event_type": "Andere",
-      "formats": [
-        "Pauper"
-      ],
-      "url": null,
-      "image_url": null
-    },
     {
       "id": 12,
       "thread_id": "1484251078995480658",
@@ -134,6 +112,28 @@
       ],
       "url": "https://mcamsterdam.mtgfestivals.com/en-us.html",
       "image_url": null
+    },
+    {
+      "id": 13,
+      "thread_id": "1485354466256617555",
+      "title": "Legacy Hannover Stadtmeisterschaft 2026",
+      "start_at": "2026-10-10T00:00:00+02:00",
+      "end_at": null,
+      "location_name": "Hanover",
+      "location_address": "30 Hannover, Deutschland",
+      "location_city": "Hannover",
+      "location_country": "Deutschland",
+      "location_lat": 52.3758916,
+      "location_lng": 9.732010400000002,
+      "fee_from": null,
+      "fee_to": null,
+      "fee_currency": "EUR",
+      "event_type": null,
+      "formats": [
+        "Legacy"
+      ],
+      "url": null,
+      "image_url": "https://cdn.discordapp.com/attachments/784931146395811840/1485348763940683927/1774176048734.png?ex=69c18a55&is=69c038d5&hm=43dc557b52ffd996d40a412c490afa06ce9cb7c986c929872406d53bcf9e41c5&"
     }
   ]
 }
