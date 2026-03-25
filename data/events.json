@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-03-25T15:46:28.084501",
+  "generated_at": "2026-03-25T16:08:25.659467",
   "server_id": "783441128119730236",
-  "count": 6,
+  "count": 7,
   "events": [
     {
       "id": 12,
@@ -68,6 +68,28 @@
       ],
       "url": "https://pauper-spezl.de/",
       "image_url": null
+    },
+    {
+      "id": 14,
+      "thread_id": "1486396343114268954",
+      "title": "House of Commons",
+      "start_at": "2026-05-16T10:00:00+02:00",
+      "end_at": null,
+      "location_name": "Unite (Mercateo)",
+      "location_address": "Grimmaischer Steinweg 8, 04103 Leipzig, Deutschland",
+      "location_city": "Leipzig",
+      "location_country": "Deutschland",
+      "location_lat": 51.337691,
+      "location_lng": 12.384375,
+      "fee_from": 20.0,
+      "fee_to": null,
+      "fee_currency": "EUR",
+      "event_type": null,
+      "formats": [
+        "Pauper"
+      ],
+      "url": "https://pauper-to-the-people.de/",
+      "image_url": "https://pauper-to-the-people.de/images/banner.jpg"
     },
     {
       "id": 11,
