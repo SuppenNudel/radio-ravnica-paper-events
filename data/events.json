@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-03-26T16:37:02.700915",
+  "generated_at": "2026-03-26T17:30:04.196260",
   "server_id": "783441128119730236",
-  "count": 7,
+  "count": 8,
   "events": [
     {
       "id": 12,
@@ -67,6 +67,28 @@
         "Pauper"
       ],
       "url": "https://pauper-spezl.de/",
+      "image_url": null
+    },
+    {
+      "id": 15,
+      "thread_id": "1486779277268619346",
+      "title": "Gie\u00dfener Pauperliga",
+      "start_at": "2026-04-30T18:30:00+01:00",
+      "end_at": null,
+      "location_name": "Dx3-Deck, Dice & Dungeons",
+      "location_address": "Frankfurter Str. 39, 35392 Gie\u00dfen, Deutschland",
+      "location_city": "Gie\u00dfen",
+      "location_country": "Deutschland",
+      "location_lat": 50.578105,
+      "location_lng": 8.6655664,
+      "fee_from": null,
+      "fee_to": null,
+      "fee_currency": "EUR",
+      "event_type": null,
+      "formats": [
+        "Pauper"
+      ],
+      "url": null,
       "image_url": null
     },
     {
