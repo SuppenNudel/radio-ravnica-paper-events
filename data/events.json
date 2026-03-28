@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-03-27T23:07:00.037906",
+  "generated_at": "2026-03-28T13:49:18.405657",
   "server_id": "783441128119730236",
-  "count": 7,
+  "count": 8,
   "events": [
     {
       "id": 9,
@@ -134,6 +134,28 @@
       ],
       "url": "https://mcamsterdam.mtgfestivals.com/en-us.html",
       "image_url": null
+    },
+    {
+      "id": 16,
+      "thread_id": "1487448499363774556",
+      "title": "MTG in GP - Pauper",
+      "start_at": "2026-10-04T19:00:00+02:00",
+      "end_at": "2026-10-04T23:30:00+02:00",
+      "location_name": "CVJM G\u00f6ppingen e.V.",
+      "location_address": "Ulrichstra\u00dfe 29, 73033 G\u00f6ppingen, Deutschland",
+      "location_city": "G\u00f6ppingen",
+      "location_country": "Deutschland",
+      "location_lat": 48.7087932,
+      "location_lng": 9.6539023,
+      "fee_from": 6.0,
+      "fee_to": null,
+      "fee_currency": "EUR",
+      "event_type": null,
+      "formats": [
+        "Pauper"
+      ],
+      "url": "https://mtg-in-gp.de/",
+      "image_url": "https://mtg-in-gp.de/assets/Logo-big.png"
     },
     {
       "id": 13,
