@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-03-29T19:25:05.575616",
+  "generated_at": "2026-03-29T20:43:32.429691",
   "server_id": "783441128119730236",
-  "count": 8,
+  "count": 9,
   "events": [
     {
       "id": 9,
@@ -24,6 +24,28 @@
       ],
       "url": "https://www.reddit.com/r/Pauper/comments/1rlttaw/invitation_to_the_first_tournament_of_the_pauper/",
       "image_url": null
+    },
+    {
+      "id": 17,
+      "thread_id": "1487915131659751616",
+      "title": "Spirit of Pauper #18",
+      "start_at": "2026-04-12T11:30:00+02:00",
+      "end_at": null,
+      "location_name": "Mana Games",
+      "location_address": "Blissestra\u00dfe 5, 10713 Berlin, Deutschland",
+      "location_city": "Berlin",
+      "location_country": "Deutschland",
+      "location_lat": 52.4860268,
+      "location_lng": 13.3207794,
+      "fee_from": 15.0,
+      "fee_to": null,
+      "fee_currency": "EUR",
+      "event_type": null,
+      "formats": [
+        "Pauper"
+      ],
+      "url": "https://forms.gle/KtsbLUp8c9uAksZ19",
+      "image_url": "https://media.discordapp.net/attachments/1373186342166597746/1487839658036559882/Spirit_of_Pauper_18.jpeg?ex=69ca9a29&is=69c948a9&hm=d41f0cba5e70d770d5765335459227e092311f62c208631740faba7884fb6f33&=&format=webp&width=724&height=965"
     },
     {
       "id": 10,
