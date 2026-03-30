@@ -70,6 +70,9 @@ defaultBaseLayer.on("tileerror", () => {
 map.setView([51.1657, 10.4515], 6);
 
 const geocodeCachePrefix = "paper-events-geocode-v1:";
+const geocodeWorkerCount = 2;
+const geocodeProgressUpdateMs = 750;
+const inFlightGeocodes = new Map();
 
 let state = {
   events: [],
@@ -127,9 +130,17 @@ function buildAddressQuery(eventItem) {
   return [eventItem.location_name, eventItem.location_address, eventItem.location_city].filter(Boolean).join(", ");
 }
 
+function normalizeGeocodeQuery(query) {
+  return (query || "").trim().toLowerCase();
+}
+
 function getCachedCoordinates(query) {
   try {
-    const raw = localStorage.getItem(geocodeCachePrefix + query.toLowerCase());
+    const normalized = normalizeGeocodeQuery(query);
+    if (!normalized) {
+      return null;
+    }
+    const raw = localStorage.getItem(geocodeCachePrefix + normalized);
     if (!raw) {
       return null;
     }
@@ -145,46 +156,69 @@ function getCachedCoordinates(query) {
 
 function setCachedCoordinates(query, value) {
   try {
-    localStorage.setItem(geocodeCachePrefix + query.toLowerCase(), JSON.stringify(value));
+    const normalized = normalizeGeocodeQuery(query);
+    if (!normalized) {
+      return;
+    }
+    localStorage.setItem(geocodeCachePrefix + normalized, JSON.stringify(value));
   } catch (_) {
     // Ignore storage limits; map still works without cache persistence.
   }
 }
 
 async function geocodeAddress(query) {
+  const normalized = normalizeGeocodeQuery(query);
+  if (!normalized) {
+    return null;
+  }
+
   const cached = getCachedCoordinates(query);
   if (cached) {
     return cached;
   }
 
-  // Respect Nominatim usage by keeping request rate low.
-  await sleep(350);
-  const url = `https://nominatim.openstreetmap.org/search?format=jsonv2&limit=1&q=${encodeURIComponent(query)}`;
-  const response = await fetch(url, {
-    headers: {
-      Accept: "application/json",
-      "Accept-Language": "de",
-    },
-  });
-  if (!response.ok) {
-    throw new Error(`Geocoding failed (${response.status})`);
-  }
-  const data = await response.json();
-  if (!Array.isArray(data) || !data.length) {
-    return null;
+  const pending = inFlightGeocodes.get(normalized);
+  if (pending) {
+    return pending;
   }
 
-  const first = data[0];
-  const result = {
-    lat: Number(first.lat),
-    lon: Number(first.lon),
-  };
-  if (!Number.isFinite(result.lat) || !Number.isFinite(result.lon)) {
-    return null;
-  }
+  const request = (async () => {
+    // Respect Nominatim usage by keeping request rate low.
+    await sleep(350);
+    const url = `https://nominatim.openstreetmap.org/search?format=jsonv2&limit=1&q=${encodeURIComponent(query)}`;
+    const response = await fetch(url, {
+      headers: {
+        Accept: "application/json",
+        "Accept-Language": "de",
+      },
+    });
+    if (!response.ok) {
+      throw new Error(`Geocoding failed (${response.status})`);
+    }
+    const data = await response.json();
+    if (!Array.isArray(data) || !data.length) {
+      return null;
+    }
 
-  setCachedCoordinates(query, result);
-  return result;
+    const first = data[0];
+    const result = {
+      lat: Number(first.lat),
+      lon: Number(first.lon),
+    };
+    if (!Number.isFinite(result.lat) || !Number.isFinite(result.lon)) {
+      return null;
+    }
+
+    setCachedCoordinates(query, result);
+    return result;
+  })();
+
+  inFlightGeocodes.set(normalized, request);
+  try {
+    return await request;
+  } finally {
+    inFlightGeocodes.delete(normalized);
+  }
 }
 
 function geocodeCandidates(eventItem) {
@@ -197,6 +231,28 @@ function geocodeCandidates(eventItem) {
     const trimmed = (value || "").trim();
     return trimmed && arr.findIndex((v) => (v || "").trim().toLowerCase() === trimmed.toLowerCase()) === index;
   });
+}
+
+async function resolveCoordinatesForEvent(eventItem) {
+  const queries = geocodeCandidates(eventItem);
+  if (!queries.length) {
+    return false;
+  }
+
+  for (const query of queries) {
+    try {
+      const coords = await geocodeAddress(query);
+      if (coords) {
+        eventItem.lat = coords.lat;
+        eventItem.lon = coords.lon;
+        return true;
+      }
+    } catch (_) {
+      state.geocodeErrors += 1;
+    }
+  }
+
+  return false;
 }
 
 function makePopupHtml(eventItem) {
@@ -212,38 +268,90 @@ function makePopupHtml(eventItem) {
   `;
 }
 
-async function ensureCoordinates(events) {
-  let changed = false;
+function hydrateCoordinatesFromCache(events) {
+  let hydrated = 0;
+
   for (const eventItem of events) {
     if (typeof eventItem.lat === "number" && typeof eventItem.lon === "number") {
       continue;
     }
+
     const queries = geocodeCandidates(eventItem);
-    if (!queries.length) {
+    for (const query of queries) {
+      const cached = getCachedCoordinates(query);
+      if (!cached) {
+        continue;
+      }
+      eventItem.lat = cached.lat;
+      eventItem.lon = cached.lon;
+      hydrated += 1;
+      break;
+    }
+  }
+
+  return hydrated;
+}
+
+function normalizeEventCoordinates(events) {
+  for (const eventItem of events) {
+    if (typeof eventItem.lat === "number" && typeof eventItem.lon === "number") {
       continue;
     }
 
-    let coords = null;
-    for (const query of queries) {
-      try {
-        coords = await geocodeAddress(query);
-      } catch (_) {
-        state.geocodeErrors += 1;
-      }
-      if (coords) {
-        eventItem.lat = coords.lat;
-        eventItem.lon = coords.lon;
-        changed = true;
-        break;
-      }
-    }
+    const sourceLat = eventItem.location_lat;
+    const sourceLon = eventItem.location_lng;
+    const lat = Number(sourceLat);
+    const lon = Number(sourceLon);
 
-    if (changed) {
-      const filtered = applyFilters(state.events);
-      renderMap(filtered);
-      changed = false;
+    if (Number.isFinite(lat) && Number.isFinite(lon)) {
+      eventItem.lat = lat;
+      eventItem.lon = lon;
     }
   }
+}
+
+async function ensureCoordinates(events) {
+  const pending = events.filter(
+    (eventItem) => typeof eventItem.lat !== "number" || typeof eventItem.lon !== "number"
+  );
+  if (!pending.length) {
+    return { processed: 0, resolved: 0 };
+  }
+
+  let nextIndex = 0;
+  let processed = 0;
+  let resolved = 0;
+  let lastProgressUpdate = 0;
+
+  const updateProgress = (force = false) => {
+    const now = Date.now();
+    if (!force && now - lastProgressUpdate < geocodeProgressUpdateMs) {
+      return;
+    }
+    lastProgressUpdate = now;
+    mapMetaEl.textContent = `Adressen werden aufgeloest... ${processed}/${pending.length}`;
+  };
+
+  const worker = async () => {
+    while (nextIndex < pending.length) {
+      const currentIndex = nextIndex;
+      nextIndex += 1;
+
+      const didResolve = await resolveCoordinatesForEvent(pending[currentIndex]);
+      processed += 1;
+      if (didResolve) {
+        resolved += 1;
+      }
+      updateProgress(false);
+    }
+  };
+
+  updateProgress(true);
+  const workers = Array.from({ length: Math.min(geocodeWorkerCount, pending.length) }, () => worker());
+  await Promise.all(workers);
+  updateProgress(true);
+
+  return { processed, resolved };
 }
 
 function renderMap(events) {
@@ -305,7 +413,7 @@ function renderMap(events) {
 function formatDateRange(startIso, endIso) {
   const start = new Date(startIso);
   const end = endIso ? new Date(endIso) : null;
-  const options = {
+  const dateTimeOptions = {
     weekday: "short",
     day: "2-digit",
     month: "short",
@@ -313,13 +421,26 @@ function formatDateRange(startIso, endIso) {
     hour: "2-digit",
     minute: "2-digit",
   };
+  const timeOnlyOptions = {
+    hour: "2-digit",
+    minute: "2-digit",
+  };
 
-  const startText = new Intl.DateTimeFormat("de-DE", options).format(start);
+  const startText = new Intl.DateTimeFormat("de-DE", dateTimeOptions).format(start);
   if (!end) {
     return startText;
   }
 
-  const endText = new Intl.DateTimeFormat("de-DE", options).format(end);
+  const sameDay =
+    start.getFullYear() === end.getFullYear() &&
+    start.getMonth() === end.getMonth() &&
+    start.getDate() === end.getDate();
+  if (sameDay) {
+    const endTimeText = new Intl.DateTimeFormat("de-DE", timeOnlyOptions).format(end);
+    return `${startText} -> ${endTimeText}`;
+  }
+
+  const endText = new Intl.DateTimeFormat("de-DE", dateTimeOptions).format(end);
   return `${startText} -> ${endText}`;
 }
 
@@ -396,7 +517,9 @@ function render() {
     empty.textContent = "Keine Events fuer diese Filterkombination.";
     eventsEl.appendChild(empty);
   } else {
-    filtered.forEach((eventItem, i) => eventsEl.appendChild(cardFor(eventItem, i)));
+    const fragment = document.createDocumentFragment();
+    filtered.forEach((eventItem, i) => fragment.appendChild(cardFor(eventItem, i)));
+    eventsEl.appendChild(fragment);
   }
 
   const generated = state.generatedAt ? new Date(state.generatedAt).toLocaleString("de-DE") : "k.A.";
@@ -464,6 +587,8 @@ async function loadEvents() {
   state.events = payload.events || [];
   state.generatedAt = payload.generated_at || null;
   state.serverId = payload.server_id || null;
+  normalizeEventCoordinates(state.events);
+  hydrateCoordinatesFromCache(state.events);
   populateFormatOptions(state.events);
   render();
   mapMetaEl.textContent = "Adressen fuer Kartenmarker werden aufgeloest...";
