@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-12T18:29:13.720092",
+  "generated_at": "2026-04-12T18:31:39.012551",
   "server_id": "783441128119730236",
   "count": 13,
   "events": [
@@ -126,15 +126,15 @@
       "location_country": "Deutschland",
       "location_lat": 51.46849,
       "location_lng": 6.85048,
-      "fee_from": null,
+      "fee_from": 8.0,
       "fee_to": null,
       "fee_currency": "EUR",
       "event_type": null,
       "formats": [
         "Pauper"
       ],
-      "url": null,
-      "image_url": "https://tcgevents.net/uploads/1268478b-21b6-4386-b3b3-ca310fc9cb4d"
+      "url": "https://www.tcgevents.net/events/0d32d0001d24b11",
+      "image_url": "https://media.discordapp.net/attachments/1313591368471547965/1492954885539233843/image.png?ex=69dd3616&is=69dbe496&hm=bc71c3e46db9393e4d652bea7f404bc5e253e8ca76c5fa74e7b96f6e4b23afbf&=&format=webp&quality=lossless"
     },
     {
       "id": 24,
