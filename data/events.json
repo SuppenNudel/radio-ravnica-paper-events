@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-04-12T18:19:43.092820",
+  "generated_at": "2026-04-12T18:28:27.225232",
   "server_id": "783441128119730236",
-  "count": 12,
+  "count": 13,
   "events": [
     {
       "id": 19,
@@ -135,6 +135,28 @@
       ],
       "url": null,
       "image_url": "https://tcgevents.net/uploads/1268478b-21b6-4386-b3b3-ca310fc9cb4d"
+    },
+    {
+      "id": 24,
+      "thread_id": "1492954561592295499",
+      "title": "Lega Pauper Colonia",
+      "start_at": "2026-05-17T10:30:00+02:00",
+      "end_at": null,
+      "location_name": "Card & Board Games Cologne e.V.",
+      "location_address": "Metzer Str. 25, 50677 K\u00f6ln, Deutschland",
+      "location_city": "K\u00f6ln",
+      "location_country": "Deutschland",
+      "location_lat": 50.9208047,
+      "location_lng": 6.954343,
+      "fee_from": 0.0,
+      "fee_to": 4.0,
+      "fee_currency": "EUR",
+      "event_type": null,
+      "formats": [
+        "Pauper"
+      ],
+      "url": "https://www.spicerack.gg/events/3150359",
+      "image_url": "https://media.discordapp.net/attachments/1313591368471547965/1492953989560668370/image.png?ex=69dd3540&is=69dbe3c0&hm=47d357d203ef2b7a55bf9aeaf626b80dc7f3647a660c8c526bb1133112ec63aa&=&format=webp&quality=lossless"
     },
     {
       "id": 20,
