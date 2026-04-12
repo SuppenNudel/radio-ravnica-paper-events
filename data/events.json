@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-04-12T18:08:17.521763",
+  "generated_at": "2026-04-12T18:19:43.092820",
   "server_id": "783441128119730236",
-  "count": 11,
+  "count": 12,
   "events": [
     {
       "id": 19,
@@ -222,6 +222,31 @@
         "Andere"
       ],
       "url": "https://mcamsterdam.mtgfestivals.com/en-us.html",
+      "image_url": null
+    },
+    {
+      "id": 23,
+      "thread_id": "1492952367476248608",
+      "title": "Lotus Vale Series",
+      "start_at": "2026-08-21T00:00:00+02:00",
+      "end_at": "2026-08-23T00:00:00+02:00",
+      "location_name": "Lotus Vale \u2013 Magic the Gathering Shop",
+      "location_address": "Grabenstra\u00dfe 6, 44787 Bochum, Deutschland",
+      "location_city": "Bochum",
+      "location_country": "Deutschland",
+      "location_lat": 51.4814859,
+      "location_lng": 7.2178798,
+      "fee_from": null,
+      "fee_to": null,
+      "fee_currency": "EUR",
+      "event_type": null,
+      "formats": [
+        "Modern",
+        "Legacy",
+        "Pauper",
+        "Commander"
+      ],
+      "url": null,
       "image_url": null
     },
     {
