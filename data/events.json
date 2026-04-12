@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-04-12T17:57:10.025720",
+  "generated_at": "2026-04-12T18:06:26.596817",
   "server_id": "783441128119730236",
-  "count": 10,
+  "count": 11,
   "events": [
     {
       "id": 19,
@@ -113,6 +113,28 @@
       ],
       "url": "https://pauper-to-the-people.de/",
       "image_url": "https://pauper-to-the-people.de/images/banner.jpg"
+    },
+    {
+      "id": 22,
+      "thread_id": "1492949027308699721",
+      "title": "Pauper Rebirth IX",
+      "start_at": "2026-05-16T12:30:00+02:00",
+      "end_at": null,
+      "location_name": "Phoenix Inn",
+      "location_address": "St\u00f6ckmannstra\u00dfe 90, 46045 Oberhausen, Deutschland",
+      "location_city": "Oberhausen",
+      "location_country": "Deutschland",
+      "location_lat": 51.46849,
+      "location_lng": 6.85048,
+      "fee_from": null,
+      "fee_to": null,
+      "fee_currency": "EUR",
+      "event_type": null,
+      "formats": [
+        "Pauper"
+      ],
+      "url": null,
+      "image_url": null
     },
     {
       "id": 20,
