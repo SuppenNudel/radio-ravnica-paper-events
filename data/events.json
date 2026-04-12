@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-04-12T15:32:07.937844",
+  "generated_at": "2026-04-12T15:37:16.950113",
   "server_id": "783441128119730236",
-  "count": 8,
+  "count": 9,
   "events": [
     {
       "id": 19,
@@ -113,6 +113,28 @@
       ],
       "url": "https://pauper-to-the-people.de/",
       "image_url": "https://pauper-to-the-people.de/images/banner.jpg"
+    },
+    {
+      "id": 20,
+      "thread_id": "1492911489965883414",
+      "title": "Paupern & Plaudern",
+      "start_at": "2026-06-06T11:00:00+02:00",
+      "end_at": "2026-06-06T18:00:00+02:00",
+      "location_name": "Spiele-Pyramide",
+      "location_address": "Fritz-Erler-Stra\u00dfe 9, 76133 Karlsruhe, Deutschland",
+      "location_city": "Karlsruhe",
+      "location_country": "Deutschland",
+      "location_lat": 49.0082248,
+      "location_lng": 8.410328699999999,
+      "fee_from": 20.0,
+      "fee_to": null,
+      "fee_currency": "EUR",
+      "event_type": null,
+      "formats": [
+        "Pauper"
+      ],
+      "url": "https://pauperturniere-karlsruhe.de/index.html",
+      "image_url": "https://media.discordapp.net/attachments/1313591368471547965/1492911256556802098/image.png?ex=69dd0d74&is=69dbbbf4&hm=307cfc7b4f98417a9ce31b02ef1eed34823a2b24b7c0d53b4ac336671fde80c3&=&format=webp&quality=lossless"
     },
     {
       "id": 11,
