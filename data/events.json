@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-13T08:31:49.005187",
+  "generated_at": "2026-04-13T08:32:06.704498",
   "server_id": "783441128119730236",
   "count": 13,
   "events": [
@@ -33,7 +33,7 @@
       "start_at": "2026-04-24T12:00:00+02:00",
       "end_at": null,
       "location_name": "Deck&Dice Munich",
-      "location_address": "M\u00fcnchen, Grillparzerstra\u00dfe 14",
+      "location_address": "Grillparzerstra\u00dfe 14, 81675 M\u00fcnchen, Deutschland",
       "location_city": "M\u00fcnchen",
       "location_country": "Deutschland",
       "location_lat": 48.1344041,
