@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-13T08:32:06.704498",
+  "generated_at": "2026-04-13T08:32:45.922794",
   "server_id": "783441128119730236",
   "count": 13,
   "events": [
@@ -46,7 +46,7 @@
         "Pauper"
       ],
       "url": "https://pauper-spezl.de/",
-      "image_url": null
+      "image_url": "https://pauper-spezl.de/images/PauperSpezlTurnierLogo.png"
     },
     {
       "id": 15,
