@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-04-21T23:07:00.028812",
+  "generated_at": "2026-04-22T11:44:36.645197",
   "server_id": "783441128119730236",
-  "count": 13,
+  "count": 14,
   "events": [
     {
       "id": 10,
@@ -91,6 +91,28 @@
       ],
       "url": "https://mtg-in-gp.de/",
       "image_url": "https://cdn.discordapp.com/attachments/807753120175882240/1487449072100053112/Logo-big.png?ex=69c92e66&is=69c7dce6&hm=8c0c538bd0d1db2bc6c063d5e576cbac27f714b3599398d87627cb0815f56077&"
+    },
+    {
+      "id": 27,
+      "thread_id": "1496476814292418704",
+      "title": "Tank, Heal, Slay!",
+      "start_at": "2026-05-10T13:00:00+02:00",
+      "end_at": null,
+      "location_name": "LVL World of Gaming - Berlin",
+      "location_address": "Sch\u00fctzenstra\u00dfe 73, 10117 Berlin, Deutschland",
+      "location_city": "Berlin",
+      "location_country": "Deutschland",
+      "location_lat": 52.50873869999999,
+      "location_lng": 13.3908872,
+      "fee_from": 10.0,
+      "fee_to": null,
+      "fee_currency": "EUR",
+      "event_type": null,
+      "formats": [
+        "Commander"
+      ],
+      "url": "https://lvl.global/event/tank-heal-slay",
+      "image_url": "https://dg195ewtpbfuj.cloudfront.net/THS_Header_mit_Border_c8bedbd2bb.png"
     },
     {
       "id": 14,
