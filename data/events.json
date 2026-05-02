@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-01T23:07:00.024124",
+  "generated_at": "2026-05-02T14:26:56.501293",
   "server_id": "783441128119730236",
-  "count": 13,
+  "count": 14,
   "events": [
     {
       "id": 28,
@@ -135,6 +135,28 @@
       ],
       "url": "https://www.spicerack.gg/events/3150359",
       "image_url": "https://media.discordapp.net/attachments/1313591368471547965/1492953989560668370/image.png?ex=69dd3540&is=69dbe3c0&hm=47d357d203ef2b7a55bf9aeaf626b80dc7f3647a660c8c526bb1133112ec63aa&=&format=webp&quality=lossless"
+    },
+    {
+      "id": 30,
+      "thread_id": "1500141545351938262",
+      "title": "GeeksHeaven Duel Commander Turnier",
+      "start_at": "2026-05-23T12:00:00+02:00",
+      "end_at": null,
+      "location_name": "Geeksheaven",
+      "location_address": "Dauner Str. 4, 53919 Weilerswist, Deutschland",
+      "location_city": "Weilerswist",
+      "location_country": "Deutschland",
+      "location_lat": 50.7080224,
+      "location_lng": 6.8176709,
+      "fee_from": 12.0,
+      "fee_to": null,
+      "fee_currency": "EUR",
+      "event_type": "Game Day",
+      "formats": [
+        "Commander"
+      ],
+      "url": "https://geeksheaven.de/products/commander-duell-turnier-geeksheaven-samstag-23-05-2026-anmeldung-ab-12-00-uhr?variant=52794318717195",
+      "image_url": "https://geeksheaven.de/cdn/shop/files/Commander_Duell_Turnier_7502d7d3-3fa3-400e-913c-035d35547f9f.png?v=1771880373&width=1600"
     },
     {
       "id": 29,
