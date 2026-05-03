@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-02T23:07:00.037967",
+  "generated_at": "2026-05-03T15:03:14.066783",
   "server_id": "783441128119730236",
-  "count": 14,
+  "count": 15,
   "events": [
     {
       "id": 28,
@@ -91,6 +91,28 @@
       ],
       "url": "https://pauper-to-the-people.de/",
       "image_url": "https://pauper-to-the-people.de/images/banner.jpg"
+    },
+    {
+      "id": 31,
+      "thread_id": "1500513066578743419",
+      "title": "GeeksHeaven Eldritch Moon Draft",
+      "start_at": "2026-05-16T12:00:00+02:00",
+      "end_at": null,
+      "location_name": "Geeksheaven",
+      "location_address": "Dauner Str. 4, 53919 Weilerswist, Deutschland",
+      "location_city": "Weilerswist",
+      "location_country": "Deutschland",
+      "location_lat": 50.7080224,
+      "location_lng": 6.8176709,
+      "fee_from": 20.0,
+      "fee_to": null,
+      "fee_currency": "EUR",
+      "event_type": "Game Day",
+      "formats": [
+        "Draft"
+      ],
+      "url": "https://geeksheaven.de/products/magic-the-gathering-draft-event-eldritch-moon-im-geeksheaven?variant=52834749350155",
+      "image_url": "https://geeksheaven.de/cdn/shop/files/MTGRUTLE_2.png?v=1776108687&width=1600"
     },
     {
       "id": 22,
