@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-07T23:07:00.010768",
+  "generated_at": "2026-05-08T06:10:53.610598",
   "server_id": "783441128119730236",
-  "count": 15,
+  "count": 16,
   "events": [
     {
       "id": 18,
@@ -157,6 +157,28 @@
       ],
       "url": "https://www.spicerack.gg/events/3150359",
       "image_url": "https://media.discordapp.net/attachments/1313591368471547965/1492953989560668370/image.png?ex=69dd3540&is=69dbe3c0&hm=47d357d203ef2b7a55bf9aeaf626b80dc7f3647a660c8c526bb1133112ec63aa&=&format=webp&quality=lossless"
+    },
+    {
+      "id": 33,
+      "thread_id": "1502191037756739719",
+      "title": "WanderSpezl Tournament #15",
+      "start_at": "2026-05-21T19:00:00+02:00",
+      "end_at": null,
+      "location_name": "Augustiner B\u00fcrgerheim",
+      "location_address": "Bergmannstra\u00dfe 33, 80339 M\u00fcnchen, Deutschland",
+      "location_city": "M\u00fcnchen",
+      "location_country": "Deutschland",
+      "location_lat": 48.1359953,
+      "location_lng": 11.5374151,
+      "fee_from": 0.0,
+      "fee_to": null,
+      "fee_currency": "EUR",
+      "event_type": null,
+      "formats": [
+        "Pauper"
+      ],
+      "url": "https://discord.com/channels/1171912804874334248/1318993475848503448/1498244398734114957",
+      "image_url": "https://media.discordapp.net/attachments/1362417697115078868/1498244364621713501/wanderspezl15.png?ex=69fe4c0c&is=69fcfa8c&hm=eaa0b845b05939bdac69cd700be66525f7275267700567b62df4e35145e21095&=&format=webp&quality=lossless&width=1665&height=800"
     },
     {
       "id": 30,
