@@ -1,30 +1,8 @@
 {
-  "generated_at": "2026-05-09T23:07:00.014093",
+  "generated_at": "2026-05-10T23:07:00.005027",
   "server_id": "783441128119730236",
-  "count": 18,
+  "count": 17,
   "events": [
-    {
-      "id": 27,
-      "thread_id": "1496476814292418704",
-      "title": "Tank, Heal, Slay!",
-      "start_at": "2026-05-10T13:00:00+02:00",
-      "end_at": null,
-      "location_name": "LVL World of Gaming - Berlin",
-      "location_address": "Sch\u00fctzenstra\u00dfe 73, 10117 Berlin, Deutschland",
-      "location_city": "Berlin",
-      "location_country": "Deutschland",
-      "location_lat": 52.50873869999999,
-      "location_lng": 13.3908872,
-      "fee_from": 10.0,
-      "fee_to": null,
-      "fee_currency": "EUR",
-      "event_type": null,
-      "formats": [
-        "Commander"
-      ],
-      "url": "https://lvl.global/event/tank-heal-slay",
-      "image_url": "https://dg195ewtpbfuj.cloudfront.net/THS_Header_mit_Border_c8bedbd2bb.png"
-    },
     {
       "id": 32,
       "thread_id": "1500874651767930902",
