@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-11T13:13:44.755104",
+  "generated_at": "2026-05-11T15:00:04.370305",
   "server_id": "783441128119730236",
-  "count": 18,
+  "count": 19,
   "events": [
     {
       "id": 32,
@@ -135,6 +135,29 @@
       ],
       "url": "https://www.spicerack.gg/events/3150359",
       "image_url": "https://media.discordapp.net/attachments/1313591368471547965/1492953989560668370/image.png?ex=69dd3540&is=69dbe3c0&hm=47d357d203ef2b7a55bf9aeaf626b80dc7f3647a660c8c526bb1133112ec63aa&=&format=webp&quality=lossless"
+    },
+    {
+      "id": 38,
+      "thread_id": "1503411370555867157",
+      "title": "TCG Night",
+      "start_at": "2026-05-18T17:00:00+02:00",
+      "end_at": null,
+      "location_name": "Ireland's Own - Irish Pub Ludwigshafen",
+      "location_address": "Bahnhofstra\u00dfe 13, 67059 Ludwigshafen am Rhein, Deutschland",
+      "location_city": "Ludwigshafen am Rhein",
+      "location_country": "Deutschland",
+      "location_lat": 49.4832931,
+      "location_lng": 8.4464873,
+      "fee_from": null,
+      "fee_to": null,
+      "fee_currency": "EUR",
+      "event_type": null,
+      "formats": [
+        "Commander",
+        "Pauper"
+      ],
+      "url": "https://beacons.ai/pauperimpub",
+      "image_url": null
     },
     {
       "id": 33,
