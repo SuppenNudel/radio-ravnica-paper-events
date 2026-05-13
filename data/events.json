@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-12T23:07:00.009498",
+  "generated_at": "2026-05-13T17:46:44.000704",
   "server_id": "783441128119730236",
-  "count": 18,
+  "count": 19,
   "events": [
     {
       "id": 35,
@@ -179,6 +179,28 @@
       ],
       "url": "https://geeksheaven.de/products/commander-duell-turnier-geeksheaven-samstag-23-05-2026-anmeldung-ab-12-00-uhr?variant=52794318717195",
       "image_url": "https://geeksheaven.de/cdn/shop/files/Commander_Duell_Turnier_7502d7d3-3fa3-400e-913c-035d35547f9f.png?v=1771880373&width=1600"
+    },
+    {
+      "id": 39,
+      "thread_id": "1504178091109384425",
+      "title": "Strixhaven Standard Store Championship",
+      "start_at": "2026-05-23T14:00:00+02:00",
+      "end_at": "2026-05-23T17:30:00+02:00",
+      "location_name": "Sonnenhang 17",
+      "location_address": "Sonnenhang 17, 50127 Bergheim, Deutschland",
+      "location_city": "Bergheim",
+      "location_country": "Deutschland",
+      "location_lat": 50.9389621,
+      "location_lng": 6.7039768,
+      "fee_from": 10.5,
+      "fee_to": null,
+      "fee_currency": "EUR",
+      "event_type": "Store Championship",
+      "formats": [
+        "Standard"
+      ],
+      "url": "https://www.tabletop-dragon.de/shop_de/magic-the-gathering-strixhaven-championship.html",
+      "image_url": "https://www.tabletop-dragon.de/media/logo/websites/4/favicon_1.png"
     },
     {
       "id": 34,
