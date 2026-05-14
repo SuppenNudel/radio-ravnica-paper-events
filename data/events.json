@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-13T23:07:00.009026",
+  "generated_at": "2026-05-14T05:19:07.664810",
   "server_id": "783441128119730236",
-  "count": 19,
+  "count": 20,
   "events": [
     {
       "id": 35,
@@ -267,6 +267,28 @@
       ],
       "url": "https://pauperturniere-karlsruhe.de/index.html",
       "image_url": "https://media.discordapp.net/attachments/1313591368471547965/1492911256556802098/image.png?ex=69dd0d74&is=69dbbbf4&hm=307cfc7b4f98417a9ce31b02ef1eed34823a2b24b7c0d53b4ac336671fde80c3&=&format=webp&quality=lossless"
+    },
+    {
+      "id": 40,
+      "thread_id": "1504352337857216565",
+      "title": "Spirit of Pauper #19",
+      "start_at": "2026-06-07T11:30:00+02:00",
+      "end_at": null,
+      "location_name": "Mana Games",
+      "location_address": "Blissestra\u00dfe 5, 10713 Berlin, Deutschland",
+      "location_city": "Berlin",
+      "location_country": "Deutschland",
+      "location_lat": 52.4860268,
+      "location_lng": 13.3207794,
+      "fee_from": 15.0,
+      "fee_to": null,
+      "fee_currency": "EUR",
+      "event_type": null,
+      "formats": [
+        "Pauper"
+      ],
+      "url": "https://forms.gle/nNf9Q9xFPaBtaAjk8",
+      "image_url": "https://i.redd.it/w9g0spi9av0h1.jpeg"
     },
     {
       "id": 36,
