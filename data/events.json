@@ -1,74 +1,8 @@
 {
-  "generated_at": "2026-05-15T23:07:00.016942",
+  "generated_at": "2026-05-16T23:07:00.009006",
   "server_id": "783441128119730236",
-  "count": 20,
+  "count": 17,
   "events": [
-    {
-      "id": 14,
-      "thread_id": "1486396343114268954",
-      "title": "House of Commons",
-      "start_at": "2026-05-16T10:00:00+02:00",
-      "end_at": null,
-      "location_name": "Unite (Mercateo)",
-      "location_address": "Grimmaischer Steinweg 8, 04103 Leipzig, Deutschland",
-      "location_city": "Leipzig",
-      "location_country": "Deutschland",
-      "location_lat": 51.337691,
-      "location_lng": 12.384375,
-      "fee_from": 20.0,
-      "fee_to": null,
-      "fee_currency": "EUR",
-      "event_type": null,
-      "formats": [
-        "Pauper"
-      ],
-      "url": "https://pauper-to-the-people.de/",
-      "image_url": "https://pauper-to-the-people.de/images/banner.jpg"
-    },
-    {
-      "id": 31,
-      "thread_id": "1500513066578743419",
-      "title": "GeeksHeaven Eldritch Moon Draft",
-      "start_at": "2026-05-16T12:00:00+02:00",
-      "end_at": null,
-      "location_name": "Geeksheaven",
-      "location_address": "Dauner Str. 4, 53919 Weilerswist, Deutschland",
-      "location_city": "Weilerswist",
-      "location_country": "Deutschland",
-      "location_lat": 50.7080224,
-      "location_lng": 6.8176709,
-      "fee_from": 20.0,
-      "fee_to": null,
-      "fee_currency": "EUR",
-      "event_type": "Game Day",
-      "formats": [
-        "Draft"
-      ],
-      "url": "https://geeksheaven.de/products/magic-the-gathering-draft-event-eldritch-moon-im-geeksheaven?variant=52834749350155",
-      "image_url": "https://geeksheaven.de/cdn/shop/files/MTGRUTLE_2.png?v=1776108687&width=1600"
-    },
-    {
-      "id": 22,
-      "thread_id": "1492949027308699721",
-      "title": "Pauper Rebirth IX",
-      "start_at": "2026-05-16T12:30:00+02:00",
-      "end_at": null,
-      "location_name": "Phoenix Inn",
-      "location_address": "St\u00f6ckmannstra\u00dfe 90, 46045 Oberhausen, Deutschland",
-      "location_city": "Oberhausen",
-      "location_country": "Deutschland",
-      "location_lat": 51.46849,
-      "location_lng": 6.85048,
-      "fee_from": 8.0,
-      "fee_to": null,
-      "fee_currency": "EUR",
-      "event_type": null,
-      "formats": [
-        "Pauper"
-      ],
-      "url": "https://www.tcgevents.net/events/0d32d0001d24b11",
-      "image_url": "https://media.discordapp.net/attachments/1313591368471547965/1492954885539233843/image.png?ex=69dd3616&is=69dbe496&hm=bc71c3e46db9393e4d652bea7f404bc5e253e8ca76c5fa74e7b96f6e4b23afbf&=&format=webp&quality=lossless"
-    },
     {
       "id": 24,
       "thread_id": "1492954561592295499",
