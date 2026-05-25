@@ -1,31 +1,8 @@
 {
-  "generated_at": "2026-05-25T15:00:02.527980",
+  "generated_at": "2026-05-25T23:07:00.016595",
   "server_id": "783441128119730236",
-  "count": 13,
+  "count": 12,
   "events": [
-    {
-      "id": 42,
-      "thread_id": "1505948080581771377",
-      "title": "TCG Night",
-      "start_at": "2026-05-25T17:00:00+02:00",
-      "end_at": null,
-      "location_name": "Ireland's Own - Irish Pub Ludwigshafen",
-      "location_address": "Bahnhofstra\u00dfe 13, 67059 Ludwigshafen am Rhein, Deutschland",
-      "location_city": "Ludwigshafen am Rhein",
-      "location_country": "Deutschland",
-      "location_lat": 49.4832931,
-      "location_lng": 8.4464873,
-      "fee_from": null,
-      "fee_to": null,
-      "fee_currency": "EUR",
-      "event_type": null,
-      "formats": [
-        "Commander",
-        "Pauper"
-      ],
-      "url": "https://beacons.ai/pauperimpub",
-      "image_url": null
-    },
     {
       "id": 41,
       "thread_id": "1504513629104635908",
