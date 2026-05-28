@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-28T16:00:02.487057",
+  "generated_at": "2026-05-28T17:30:07.589518",
   "server_id": "783441128119730236",
-  "count": 14,
+  "count": 15,
   "events": [
     {
       "id": 41,
@@ -245,6 +245,28 @@
       ],
       "url": "https://docs.google.com/forms/d/e/1FAIpQLSekpn46PhU_UoXGYSaU0uF77gt8IFSBFRulDAN8EQZqifd3ng/viewform",
       "image_url": "https://media.discordapp.net/attachments/1338585273054920755/1503346999859220510/IMG-20260511-WA0000.jpg?ex=6a03047f&is=6a01b2ff&hm=03f1ad129f387e9c6c236ff8bf8c53e67073262adc4b09fbebdb16d12ff75eca&=&format=webp&width=744&height=930"
+    },
+    {
+      "id": 46,
+      "thread_id": "1509609727355785419",
+      "title": "Gie\u00dfener Pauperliga",
+      "start_at": "2026-06-25T18:30:00+01:00",
+      "end_at": null,
+      "location_name": "Dx3-Deck, Dice & Dungeons",
+      "location_address": "Frankfurter Str. 39, 35392 Gie\u00dfen, Deutschland",
+      "location_city": "Gie\u00dfen",
+      "location_country": "Deutschland",
+      "location_lat": 50.578105,
+      "location_lng": 8.6655664,
+      "fee_from": null,
+      "fee_to": null,
+      "fee_currency": "EUR",
+      "event_type": null,
+      "formats": [
+        "Pauper"
+      ],
+      "url": null,
+      "image_url": null
     },
     {
       "id": 1,
