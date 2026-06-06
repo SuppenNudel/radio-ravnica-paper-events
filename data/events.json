@@ -1,52 +1,8 @@
 {
-  "generated_at": "2026-06-05T23:07:00.004255",
+  "generated_at": "2026-06-06T23:07:01.669484",
   "server_id": "783441128119730236",
-  "count": 13,
+  "count": 11,
   "events": [
-    {
-      "id": 20,
-      "thread_id": "1492911489965883414",
-      "title": "Paupern & Plaudern",
-      "start_at": "2026-06-06T11:00:00+02:00",
-      "end_at": "2026-06-06T18:00:00+02:00",
-      "location_name": "Spiele-Pyramide",
-      "location_address": "Fritz-Erler-Stra\u00dfe 9, 76133 Karlsruhe, Deutschland",
-      "location_city": "Karlsruhe",
-      "location_country": "Deutschland",
-      "location_lat": 49.0082248,
-      "location_lng": 8.410328699999999,
-      "fee_from": 20.0,
-      "fee_to": null,
-      "fee_currency": "EUR",
-      "event_type": null,
-      "formats": [
-        "Pauper"
-      ],
-      "url": "https://pauperturniere-karlsruhe.de/index.html",
-      "image_url": "https://media.discordapp.net/attachments/1313591368471547965/1492911256556802098/image.png?ex=69dd0d74&is=69dbbbf4&hm=307cfc7b4f98417a9ce31b02ef1eed34823a2b24b7c0d53b4ac336671fde80c3&=&format=webp&quality=lossless"
-    },
-    {
-      "id": 44,
-      "thread_id": "1508786234040778795",
-      "title": "Pauper Hassel #5",
-      "start_at": "2026-06-06T11:00:00+02:00",
-      "end_at": null,
-      "location_name": "Heldenwelt",
-      "location_address": "Sternstra\u00dfe 28, 39104 Magdeburg, Deutschland",
-      "location_city": "Magdeburg",
-      "location_country": "Deutschland",
-      "location_lat": 52.1186255,
-      "location_lng": 11.627448,
-      "fee_from": 15.0,
-      "fee_to": null,
-      "fee_currency": "EUR",
-      "event_type": null,
-      "formats": [
-        "Pauper"
-      ],
-      "url": "https://magic-decklists.berlin/",
-      "image_url": "https://preview.redd.it/pauper-hassel-a-pauper-tournament-in-magdeburg-v0-tuq4czj9u33h1.png?auto=webp&s=346e971bae37bd9ab304ebb635ae525bda12cd71"
-    },
     {
       "id": 40,
       "thread_id": "1504352337857216565",
