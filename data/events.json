@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-07T07:16:02.433376",
+  "generated_at": "2026-06-07T07:22:25.625447",
   "server_id": "783441128119730236",
-  "count": 12,
+  "count": 13,
   "events": [
     {
       "id": 40,
@@ -47,6 +47,28 @@
       ],
       "url": "https://beacons.ai/pauperimpub",
       "image_url": null
+    },
+    {
+      "id": 51,
+      "thread_id": "1513080676889526345",
+      "title": "Pauper Stammtisch Mainz",
+      "start_at": "2026-06-10T18:30:00+02:00",
+      "end_at": null,
+      "location_name": "Retro",
+      "location_address": "Pfarrstra\u00dfe 6, 55124 Mainz, Deutschland",
+      "location_city": "Mainz",
+      "location_country": "Deutschland",
+      "location_lat": 49.99932159999999,
+      "location_lng": 8.2093317,
+      "fee_from": 0.0,
+      "fee_to": null,
+      "fee_currency": "EUR",
+      "event_type": null,
+      "formats": [
+        "Pauper"
+      ],
+      "url": "https://chat.whatsapp.com/HDbPOdobwtZ1gEKlj6o9if?s=cl&p=a&mlu=0&amv=0",
+      "image_url": "https://media.discordapp.net/attachments/1313591368471547965/1513080586703601744/650329542_946803741194336_7581401439464502061_n.png?ex=6a266d9b&is=6a251c1b&hm=0c7910b324dbad04fdb38ffa0966fad251b0bd392c4c8e9b08e8556579e4eb09&=&format=webp&quality=lossless&width=800&height=800"
     },
     {
       "id": 49,
