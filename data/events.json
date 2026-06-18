@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-17T23:07:00.011202",
+  "generated_at": "2026-06-18T08:58:56.003275",
   "server_id": "783441128119730236",
-  "count": 11,
+  "count": 12,
   "events": [
     {
       "id": 55,
@@ -179,6 +179,28 @@
       ],
       "url": "https://mtg-in-gp.de/",
       "image_url": "https://cdn.discordapp.com/attachments/807753120175882240/1487449072100053112/Logo-big.png?ex=69c92e66&is=69c7dce6&hm=8c0c538bd0d1db2bc6c063d5e576cbac27f714b3599398d87627cb0815f56077&"
+    },
+    {
+      "id": 59,
+      "thread_id": "1517091226006851656",
+      "title": "TCG Festival 2026",
+      "start_at": "2026-07-11T00:00:00+02:00",
+      "end_at": "2026-07-12T00:00:00+02:00",
+      "location_name": "Carl-Benz-Strasse 15-17",
+      "location_address": "Carl-Benz-Strasse 15-17, 48734 Reken, Deutschland",
+      "location_city": "Reken",
+      "location_country": "Deutschland",
+      "location_lat": 51.8145447,
+      "location_lng": 7.0474935,
+      "fee_from": 30.0,
+      "fee_to": 60.0,
+      "fee_currency": "EUR",
+      "event_type": null,
+      "formats": [
+        "Commander"
+      ],
+      "url": "https://tcg-festival.de/",
+      "image_url": "https://mtg-uni.de/wp-content/uploads/2026/06/TCG_Festival_UNI_02.webp"
     },
     {
       "id": 1,
