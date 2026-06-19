@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-18T23:07:00.010335",
+  "generated_at": "2026-06-19T14:45:35.367072",
   "server_id": "783441128119730236",
-  "count": 12,
+  "count": 13,
   "events": [
     {
       "id": 37,
@@ -113,6 +113,28 @@
       ],
       "url": null,
       "image_url": null
+    },
+    {
+      "id": 61,
+      "thread_id": "1517540856800874617",
+      "title": "European Magic Series RCQ",
+      "start_at": "2026-06-27T11:00:00+02:00",
+      "end_at": null,
+      "location_name": "Spiele-Pyramide Event-Location M\u00fchlburg",
+      "location_address": "Hardtstra\u00dfe 39a, 76185 Karlsruhe, Deutschland",
+      "location_city": "Karlsruhe",
+      "location_country": "Deutschland",
+      "location_lat": 49.0140114,
+      "location_lng": 8.359021799999999,
+      "fee_from": 30.0,
+      "fee_to": null,
+      "fee_currency": "EUR",
+      "event_type": "RCQ",
+      "formats": [
+        "Modern"
+      ],
+      "url": "https://tcgevents.net/events/13bfdac199e5fba",
+      "image_url": "https://media.discordapp.net/attachments/1313591368471547965/1517540593616683048/image.png?ex=6a36a750&is=6a3555d0&hm=c09850c7084362071f72a3d82ad80dd4833cf3a10d3b7cc57ebe89e19d18cdd1&=&format=webp&quality=lossless"
     },
     {
       "id": 50,
