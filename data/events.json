@@ -1,52 +1,8 @@
 {
-  "generated_at": "2026-06-19T23:07:00.020446",
+  "generated_at": "2026-06-20T13:00:03.084018",
   "server_id": "783441128119730236",
-  "count": 13,
+  "count": 12,
   "events": [
-    {
-      "id": 37,
-      "thread_id": "1503384616713715806",
-      "title": "Summer APS",
-      "start_at": "2026-06-20T10:00:00+02:00",
-      "end_at": null,
-      "location_name": "Magic Mansion - Der Local Game Store in Wolfsburg",
-      "location_address": "Bahnhofstra\u00dfe 10, 38442 Wolfsburg, Deutschland",
-      "location_city": "Wolfsburg",
-      "location_country": "Deutschland",
-      "location_lat": 52.4200725,
-      "location_lng": 10.7170244,
-      "fee_from": 15.0,
-      "fee_to": null,
-      "fee_currency": "EUR",
-      "event_type": null,
-      "formats": [
-        "Pauper"
-      ],
-      "url": "https://docs.google.com/forms/d/e/1FAIpQLSekpn46PhU_UoXGYSaU0uF77gt8IFSBFRulDAN8EQZqifd3ng/viewform",
-      "image_url": "https://media.discordapp.net/attachments/1338585273054920755/1503346999859220510/IMG-20260511-WA0000.jpg?ex=6a03047f&is=6a01b2ff&hm=03f1ad129f387e9c6c236ff8bf8c53e67073262adc4b09fbebdb16d12ff75eca&=&format=webp&width=744&height=930"
-    },
-    {
-      "id": 54,
-      "thread_id": "1514601599069065269",
-      "title": "Monatliches Pauper Turnier",
-      "start_at": "2026-06-20T12:00:00+02:00",
-      "end_at": "2026-06-20T15:00:00+02:00",
-      "location_name": "Countdown Spielewelt",
-      "location_address": "Max-Planck-Stra\u00dfe 2, 86899 Landsberg am Lech, Deutschland",
-      "location_city": "Landsberg am Lech",
-      "location_country": "Deutschland",
-      "location_lat": 48.0637506,
-      "location_lng": 10.8600182,
-      "fee_from": 10.0,
-      "fee_to": null,
-      "fee_currency": "EUR",
-      "event_type": null,
-      "formats": [
-        "Pauper"
-      ],
-      "url": "https://countdown-spielewelt.de/event/monatliches-pauper-turnier-6/",
-      "image_url": "https://countdown-spielewelt.de/wp-content/uploads/2023/10/Erebos-Bleak-Hearted-Alternate-Theros-Beyond-Death-Art.webp"
-    },
     {
       "id": 58,
       "thread_id": "1516094940252471410",
@@ -245,6 +201,28 @@
       ],
       "url": "https://mcamsterdam.mtgfestivals.com/en-us.html",
       "image_url": null
+    },
+    {
+      "id": 62,
+      "thread_id": "1517876680973221992",
+      "title": "Monatliches Pauper Turnier",
+      "start_at": "2026-07-18T12:00:00+02:00",
+      "end_at": "2026-07-18T15:00:00+02:00",
+      "location_name": "Countdown Spielewelt",
+      "location_address": "Max-Planck-Stra\u00dfe 2, 86899 Landsberg am Lech, Deutschland",
+      "location_city": "Landsberg am Lech",
+      "location_country": "Deutschland",
+      "location_lat": 48.0637506,
+      "location_lng": 10.8600182,
+      "fee_from": 10.0,
+      "fee_to": null,
+      "fee_currency": "EUR",
+      "event_type": null,
+      "formats": [
+        "Pauper"
+      ],
+      "url": "https://countdown-spielewelt.de/event/monatliches-pauper-turnier-6/",
+      "image_url": "https://countdown-spielewelt.de/wp-content/uploads/2023/10/Erebos-Bleak-Hearted-Alternate-Theros-Beyond-Death-Art.webp"
     },
     {
       "id": 23,
