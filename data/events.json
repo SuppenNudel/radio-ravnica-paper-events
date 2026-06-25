@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-25T16:00:02.699173",
+  "generated_at": "2026-06-25T17:30:09.707229",
   "server_id": "783441128119730236",
-  "count": 15,
+  "count": 16,
   "events": [
     {
       "id": 60,
@@ -289,6 +289,28 @@
       ],
       "url": "https://www.instagram.com/pauperstammtischregensburg/",
       "image_url": "https://scontent-dus1-1.cdninstagram.com/v/t51.82787-19/661574843_18071587451319946_6631782743952376319_n.jpg?stp=dst-jpg_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDI0LmMyIn0&_nc_ht=scontent-dus1-1.cdninstagram.com&_nc_cat=110&_nc_oc=Q6cZ2gF_M5ZZWcCu9Q42bgMMMBdiwBRtsF91L1C9ekL4P6AI-QnbA-qhuce1b7AQuVOigBE&_nc_ohc=Kh9Qm8sVTmcQ7kNvwFr_NSx&_nc_gid=ZsdbPzhNYnQ1wWYVpavZIw&edm=AP4sbd4BAAAA&ccb=7-5&oh=00_Af-9K0UjROziFAYNPhVupepCUsk7l_rXrxOywTEu1znT1Q&oe=6A3ED7AC&_nc_sid=7a9f4b"
+    },
+    {
+      "id": 67,
+      "thread_id": "1519756590654296320",
+      "title": "Gie\u00dfener Pauperliga",
+      "start_at": "2026-07-30T18:30:00+01:00",
+      "end_at": null,
+      "location_name": "Dx3-Deck, Dice & Dungeons",
+      "location_address": "Frankfurter Str. 39, 35392 Gie\u00dfen, Deutschland",
+      "location_city": "Gie\u00dfen",
+      "location_country": "Deutschland",
+      "location_lat": 50.578105,
+      "location_lng": 8.6655664,
+      "fee_from": null,
+      "fee_to": null,
+      "fee_currency": "EUR",
+      "event_type": null,
+      "formats": [
+        "Pauper"
+      ],
+      "url": null,
+      "image_url": null
     },
     {
       "id": 23,
