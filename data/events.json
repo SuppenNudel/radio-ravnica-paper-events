@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T21:08:38.988217",
+  "generated_at": "2026-06-25T21:29:56.805203",
   "server_id": "783441128119730236",
   "count": 15,
   "events": [
@@ -28,15 +28,15 @@
     {
       "id": 68,
       "thread_id": "1519811581213675604",
-      "title": "Pauper Saturday im Lokki Game Store Oberursel",
+      "title": "Pauper Saturday",
       "start_at": "2026-06-27T14:00:00+02:00",
       "end_at": "2026-06-27T18:00:00+02:00",
-      "location_name": "Oberursel",
-      "location_address": "61440 Oberursel (Taunus), Deutschland",
+      "location_name": "Lokki Game Store GmbH",
+      "location_address": "Nassauer Str. 8, 61440 Oberursel (Taunus), Deutschland",
       "location_city": "Oberursel (Taunus)",
       "location_country": "Deutschland",
-      "location_lat": 50.2025478,
-      "location_lng": 8.5770309,
+      "location_lat": 50.1992436,
+      "location_lng": 8.5867338,
       "fee_from": 5.0,
       "fee_to": null,
       "fee_currency": "EUR",
