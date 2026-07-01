@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-30T23:07:00.032434",
+  "generated_at": "2026-07-01T19:02:33.030691",
   "server_id": "783441128119730236",
   "count": 13,
   "events": [
@@ -29,6 +29,33 @@
       ],
       "url": "https://discord.com/channels/1171912804874334248/1318995541660667905",
       "image_url": "https://media.discordapp.net/attachments/1310488840443789344/1318997513990045707/Cover_Link.png?ex=69fec9e9&is=69fd7869&hm=491f2c52d6b44bb8e42df5975137068e7b145413b636d721d6f459c4e2643bdb&=&format=webp&quality=lossless&width=930&height=930"
+    },
+    {
+      "id": 57,
+      "thread_id": "1515708244025413634",
+      "title": "MTG in GP - Pauper",
+      "start_at": "2026-07-03T19:00:00+02:00",
+      "end_at": "2026-07-03T23:30:00+02:00",
+      "location_name": "CVJM G\u00f6ppingen e.V.",
+      "location_address": "Ulrichstra\u00dfe 29, 73033 G\u00f6ppingen, Deutschland",
+      "location_city": "G\u00f6ppingen",
+      "location_country": "Deutschland",
+      "location_lat": 48.7087932,
+      "location_lng": 9.6539023,
+      "location_state": "",
+      "location_url": null,
+      "location_osm_type": null,
+      "location_osm_id": null,
+      "location_place_id": null,
+      "fee_from": 6.0,
+      "fee_to": null,
+      "fee_currency": "EUR",
+      "event_type": null,
+      "formats": [
+        "Pauper"
+      ],
+      "url": "https://mtg-in-gp.de/",
+      "image_url": "https://cdn.discordapp.com/attachments/807753120175882240/1487449072100053112/Logo-big.png?ex=69c92e66&is=69c7dce6&hm=8c0c538bd0d1db2bc6c063d5e576cbac27f714b3599398d87627cb0815f56077&"
     },
     {
       "id": 50,
@@ -83,33 +110,6 @@
       ],
       "url": "https://chat.whatsapp.com/HDbPOdobwtZ1gEKlj6o9if?s=cl&p=a&mlu=0&amv=0",
       "image_url": "https://media.discordapp.net/attachments/1313591368471547965/1513080586703601744/650329542_946803741194336_7581401439464502061_n.png?ex=6a266d9b&is=6a251c1b&hm=0c7910b324dbad04fdb38ffa0966fad251b0bd392c4c8e9b08e8556579e4eb09&=&format=webp&quality=lossless&width=800&height=800"
-    },
-    {
-      "id": 57,
-      "thread_id": "1515708244025413634",
-      "title": "MTG in GP - Pauper",
-      "start_at": "2026-07-10T19:00:00+02:00",
-      "end_at": "2026-07-10T23:30:00+02:00",
-      "location_name": "CVJM G\u00f6ppingen e.V.",
-      "location_address": "Ulrichstra\u00dfe 29, 73033 G\u00f6ppingen, Deutschland",
-      "location_city": "G\u00f6ppingen",
-      "location_country": "Deutschland",
-      "location_lat": 48.7087932,
-      "location_lng": 9.6539023,
-      "location_state": null,
-      "location_url": null,
-      "location_osm_type": null,
-      "location_osm_id": null,
-      "location_place_id": null,
-      "fee_from": 6.0,
-      "fee_to": null,
-      "fee_currency": "EUR",
-      "event_type": null,
-      "formats": [
-        "Pauper"
-      ],
-      "url": "https://mtg-in-gp.de/",
-      "image_url": "https://cdn.discordapp.com/attachments/807753120175882240/1487449072100053112/Logo-big.png?ex=69c92e66&is=69c7dce6&hm=8c0c538bd0d1db2bc6c063d5e576cbac27f714b3599398d87627cb0815f56077&"
     },
     {
       "id": 59,
