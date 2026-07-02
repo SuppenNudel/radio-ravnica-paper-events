@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-02T18:47:48.628315",
+  "generated_at": "2026-07-02T19:34:00.057169",
   "server_id": "783441128119730236",
   "count": 15,
   "events": [
@@ -244,8 +244,8 @@
       "formats": [
         "Standard"
       ],
-      "url": null,
-      "image_url": "https://kroenchen-con.de/ticketshop/"
+      "url": "https://kroenchen-con.de/",
+      "image_url": null
     },
     {
       "id": 62,
