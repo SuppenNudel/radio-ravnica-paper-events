@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-02T18:38:55.037032",
+  "generated_at": "2026-07-02T18:42:27.149386",
   "server_id": "783441128119730236",
   "count": 15,
   "events": [
@@ -167,33 +167,6 @@
       "image_url": "https://mtg-uni.de/wp-content/uploads/2026/06/TCG_Festival_UNI_02.webp"
     },
     {
-      "id": 72,
-      "thread_id": "1522310613899153503",
-      "title": "Kr\u00f6nchen-Con",
-      "start_at": "2026-07-11T00:00:00+02:00",
-      "end_at": "2026-07-18T00:00:00+02:00",
-      "location_name": "Siegen",
-      "location_address": "Siegen, Kreis Siegen-Wittgenstein, Nordrhein-Westfalen, Deutschland",
-      "location_city": "Siegen",
-      "location_country": "Deutschland",
-      "location_lat": 50.8751175,
-      "location_lng": 8.0256131,
-      "location_state": "Nordrhein-Westfalen",
-      "location_url": "https://www.siegen-stadt.de/",
-      "location_osm_type": "relation",
-      "location_osm_id": "163256",
-      "location_place_id": "138346464",
-      "fee_from": 0.0,
-      "fee_to": null,
-      "fee_currency": "EUR",
-      "event_type": null,
-      "formats": [
-        "Standard"
-      ],
-      "url": null,
-      "image_url": null
-    },
-    {
       "id": 69,
       "thread_id": "1520458692875522183",
       "title": "Pauper Saturday",
@@ -245,6 +218,33 @@
         "Andere"
       ],
       "url": "https://mcamsterdam.mtgfestivals.com/en-us.html",
+      "image_url": null
+    },
+    {
+      "id": 72,
+      "thread_id": "1522310613899153503",
+      "title": "Kr\u00f6nchen-Con",
+      "start_at": "2026-07-18T11:00:00+02:00",
+      "end_at": null,
+      "location_name": "Siegen",
+      "location_address": "Siegen, Kreis Siegen-Wittgenstein, Nordrhein-Westfalen, Deutschland",
+      "location_city": "Siegen",
+      "location_country": "Deutschland",
+      "location_lat": 50.8751175,
+      "location_lng": 8.0256131,
+      "location_state": "Nordrhein-Westfalen",
+      "location_url": "https://www.siegen-stadt.de/",
+      "location_osm_type": "relation",
+      "location_osm_id": "163256",
+      "location_place_id": "138346464",
+      "fee_from": 0.0,
+      "fee_to": null,
+      "fee_currency": "EUR",
+      "event_type": null,
+      "formats": [
+        "Standard"
+      ],
+      "url": null,
       "image_url": null
     },
     {
