@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-04T05:46:59.200196",
+  "generated_at": "2026-07-04T05:47:54.595952",
   "server_id": "783441128119730236",
   "count": 15,
   "events": [
@@ -362,8 +362,8 @@
       "id": 73,
       "thread_id": "1522716068777296008",
       "title": "MTG in GP - Pauper",
-      "start_at": "2026-09-09T19:00:00+02:00",
-      "end_at": "2026-09-09T23:00:00+02:00",
+      "start_at": "2026-09-04T19:00:00+02:00",
+      "end_at": "2026-09-04T23:00:00+02:00",
       "location_name": "CVJM G\u00f6ppingen e.V.",
       "location_address": "Ulrichstra\u00dfe 29, 73033 G\u00f6ppingen, Deutschland",
       "location_city": "G\u00f6ppingen",
