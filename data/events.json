@@ -1,36 +1,8 @@
 {
-  "generated_at": "2026-07-06T15:00:02.464278",
+  "generated_at": "2026-07-06T23:07:00.040188",
   "server_id": "783441128119730236",
-  "count": 16,
+  "count": 15,
   "events": [
-    {
-      "id": 70,
-      "thread_id": "1522238149819105332",
-      "title": "TCG Night",
-      "start_at": "2026-07-06T17:00:00+02:00",
-      "end_at": null,
-      "location_name": "Ireland's Own - Irish Pub Ludwigshafen",
-      "location_address": "Bahnhofstra\u00dfe 13, 67059 Ludwigshafen am Rhein, Deutschland",
-      "location_city": "Ludwigshafen am Rhein",
-      "location_country": "Deutschland",
-      "location_lat": 49.4832931,
-      "location_lng": 8.4464873,
-      "location_state": "Rheinland-Pfalz",
-      "location_url": null,
-      "location_osm_type": null,
-      "location_osm_id": null,
-      "location_place_id": null,
-      "fee_from": null,
-      "fee_to": null,
-      "fee_currency": "EUR",
-      "event_type": null,
-      "formats": [
-        "Commander",
-        "Pauper"
-      ],
-      "url": "https://beacons.ai/pauperimpub",
-      "image_url": "https://scontent-fra3-1.cdninstagram.com/v/t51.2885-19/501802121_18270378256286345_8784679655006641950_n.jpg?efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-fra3-1.cdninstagram.com&_nc_cat=105&_nc_oc=Q6cZ2gFLTXMF-KXw1JNQY7tI3MBqxqCnz475H-b3Xc0Ks4p5w4SnL4Bu2WGeQpbiVnCdy3A&_nc_ohc=Ec91WlNvS54Q7kNvwG_BDDw&_nc_gid=_3Ei_JpJ9-Wl8KfbxR-DdA&edm=APoiHPcBAAAA&ccb=7-5&oh=00_AQDad4c9yOHQX8xTgucw6_bx0TRZknCM3BZgtO4cclLhIw&oe=6A4C47A0&_nc_sid=22de04"
-    },
     {
       "id": 53,
       "thread_id": "1514305650308419646",
