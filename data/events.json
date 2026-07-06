@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-06T08:53:35.576480",
+  "generated_at": "2026-07-06T08:55:48.990194",
   "server_id": "783441128119730236",
   "count": 14,
   "events": [
@@ -226,17 +226,17 @@
       "title": "Siegener Legacy Turnier",
       "start_at": "2026-07-18T12:30:00+02:00",
       "end_at": "2026-07-18T17:30:00+02:00",
-      "location_name": "Fischkrieg - Der Treff f\u00fcr Spielefans",
-      "location_address": "Sandstra\u00dfe 20, 57072 Siegen, Deutschland",
+      "location_name": "Universit\u00e4t Siegen \u2013 Campus Adolf-Reichwein-Stra\u00dfe (AR)",
+      "location_address": "Universit\u00e4t Siegen \u2013 Campus Adolf-Reichwein-Stra\u00dfe (AR), Hochschulstra\u00dfe, Weidenau, Niedersetzen, Siegen, Kreis Siegen-Wittgenstein, Nordrhein-Westfalen, 57078, Deutschland",
       "location_city": "Siegen",
       "location_country": "Deutschland",
-      "location_lat": 50.87568719999999,
-      "location_lng": 8.0213229,
+      "location_lat": 50.9118068,
+      "location_lng": 8.0254144,
       "location_state": "Nordrhein-Westfalen",
       "location_url": null,
-      "location_osm_type": null,
-      "location_osm_id": null,
-      "location_place_id": null,
+      "location_osm_type": "way",
+      "location_osm_id": "146943431",
+      "location_place_id": "139398303",
       "fee_from": 8.0,
       "fee_to": null,
       "fee_currency": "EUR",
@@ -245,7 +245,7 @@
         "Legacy"
       ],
       "url": null,
-      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzg38KPq88QytLV96Vr_iHJrQ-SlV_WulFEaVqB1Q6kw&s=10"
+      "image_url": null
     },
     {
       "id": 64,
