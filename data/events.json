@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-05T23:07:00.018782",
+  "generated_at": "2026-07-06T08:53:35.576480",
   "server_id": "783441128119730236",
   "count": 14,
   "events": [
@@ -223,7 +223,7 @@
     {
       "id": 63,
       "thread_id": "1518329816238129257",
-      "title": "Legacy Fischkrieg",
+      "title": "Siegener Legacy Turnier",
       "start_at": "2026-07-18T12:30:00+02:00",
       "end_at": "2026-07-18T17:30:00+02:00",
       "location_name": "Fischkrieg - Der Treff f\u00fcr Spielefans",
@@ -232,7 +232,7 @@
       "location_country": "Deutschland",
       "location_lat": 50.87568719999999,
       "location_lng": 8.0213229,
-      "location_state": null,
+      "location_state": "Nordrhein-Westfalen",
       "location_url": null,
       "location_osm_type": null,
       "location_osm_id": null,
