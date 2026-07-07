@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-07T10:46:26.390813",
+  "generated_at": "2026-07-07T10:46:34.433511",
   "server_id": "783441128119730236",
   "count": 16,
   "events": [
@@ -254,7 +254,7 @@
       "start_at": "2026-07-18T12:30:00+02:00",
       "end_at": "2026-07-18T17:30:00+02:00",
       "location_name": "Universit\u00e4t Siegen \u2013 Campus Adolf-Reichwein-Stra\u00dfe (AR)",
-      "location_address": "Universit\u00e4t Siegen \u2013 Campus Adolf-Reichwein-Stra\u00dfe (AR), Hochschulstra\u00dfe, Weidenau, Niedersetzen, Siegen, Kreis Siegen-Wittgenstein, Nordrhein-Westfalen, 57078, Deutschland",
+      "location_address": "Universit\u00e4t Siegen \u2013 Campus Adolf-Reichwein-Stra\u00dfe (AR), Adolf-Reichwein-Stra\u00dfe, Weidenau, Niedersetzen, Siegen, Kreis Siegen-Wittgenstein, Nordrhein-Westfalen, 57078, Deutschland",
       "location_city": "Siegen",
       "location_country": "Deutschland",
       "location_lat": 50.9118068,
@@ -263,7 +263,7 @@
       "location_url": null,
       "location_osm_type": "way",
       "location_osm_id": "146943431",
-      "location_place_id": "139398303",
+      "location_place_id": "139157357",
       "fee_from": 8.0,
       "fee_to": null,
       "fee_currency": "EUR",
