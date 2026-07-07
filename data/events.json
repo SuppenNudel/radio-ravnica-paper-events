@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-06T23:07:00.040188",
+  "generated_at": "2026-07-07T09:11:59.783934",
   "server_id": "783441128119730236",
-  "count": 15,
+  "count": 16,
   "events": [
     {
       "id": 53,
@@ -56,6 +56,33 @@
       ],
       "url": "https://discord.com/channels/1171912804874334248/1318995541660667905",
       "image_url": "https://media.discordapp.net/attachments/1310488840443789344/1318997513990045707/Cover_Link.png?ex=69fec9e9&is=69fd7869&hm=491f2c52d6b44bb8e42df5975137068e7b145413b636d721d6f459c4e2643bdb&=&format=webp&quality=lossless&width=930&height=930"
+    },
+    {
+      "id": 76,
+      "thread_id": "1523979886329335853",
+      "title": "Helden Gesucht",
+      "start_at": "2026-07-10T12:00:00+02:00",
+      "end_at": "2026-07-11T20:00:00+02:00",
+      "location_name": "The Playce",
+      "location_address": "The Playce, 7, Alte Potsdamer Stra\u00dfe, Tiergarten, Mitte, Berlin, 10785, Deutschland",
+      "location_city": "Berlin",
+      "location_country": "Deutschland",
+      "location_lat": 52.5074122,
+      "location_lng": 13.3741147,
+      "location_state": "",
+      "location_url": "https://www.potsdamerplatz.de/",
+      "location_osm_type": "way",
+      "location_osm_id": "22989670",
+      "location_place_id": "145495612",
+      "fee_from": null,
+      "fee_to": null,
+      "fee_currency": "EUR",
+      "event_type": null,
+      "formats": [
+        "Draft"
+      ],
+      "url": "https://www.potsdamerplatz.de/de/events/magic-marvel/",
+      "image_url": "https://media.discordapp.net/attachments/1313591368471547965/1523978827032690728/image.png?ex=6a4e1362&is=6a4cc1e2&hm=d28a1b373271e8ada503bf3640e96cc9ceeacb6d8cc817b60dfb7755a968ec7f&=&format=webp&quality=lossless"
     },
     {
       "id": 59,
