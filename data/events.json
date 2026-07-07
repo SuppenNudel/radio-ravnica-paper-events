@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-07T10:44:46.389240",
+  "generated_at": "2026-07-07T10:45:13.492270",
   "server_id": "783441128119730236",
   "count": 16,
   "events": [
@@ -178,14 +178,14 @@
       "location_country": "Niederlande",
       "location_lat": 52.3415512,
       "location_lng": 4.8876876,
-      "location_state": null,
+      "location_state": "Nordholland",
       "location_url": null,
       "location_osm_type": null,
       "location_osm_id": null,
       "location_place_id": null,
       "fee_from": null,
       "fee_to": null,
-      "fee_currency": null,
+      "fee_currency": "EUR",
       "event_type": "Pro Tour",
       "formats": [
         "Andere"
