@@ -94,6 +94,7 @@ select {
 .toolbar-actions {
   display: flex;
   align-items: flex-end;
+  flex-wrap: wrap;
   gap: 0.55rem;
 }
 

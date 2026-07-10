@@ -6,6 +6,7 @@ const formatFilterEl = document.getElementById("format-filter");
 const distanceLocationEl = document.getElementById("distance-location");
 const distanceKmEl = document.getElementById("distance-km");
 const applyDistanceBtn = document.getElementById("apply-distance");
+const shareFiltersBtn = document.getElementById("share-filters");
 const clearDistanceBtn = document.getElementById("clear-distance");
 const template = document.getElementById("event-card-template");
 
@@ -81,6 +82,87 @@ let state = {
   userLocation: null,
 };
 
+function readFiltersFromUrl() {
+  const params = new URLSearchParams(window.location.search);
+  return {
+    city: (params.get("city") || "").trim(),
+    format: (params.get("format") || "").trim(),
+    location: (params.get("location") || "").trim(),
+    distance: (params.get("distance") || "").trim(),
+  };
+}
+
+function applyUrlFiltersToInputs() {
+  const filters = readFiltersFromUrl();
+  cityFilterEl.value = filters.city;
+  distanceLocationEl.value = filters.location;
+
+  const distanceOptionExists = Array.from(distanceKmEl.options).some((option) => option.value === filters.distance);
+  distanceKmEl.value = distanceOptionExists ? filters.distance : "0";
+
+  return filters;
+}
+
+function setFormatFilterValue(formatValue) {
+  const normalized = (formatValue || "").trim().toLowerCase();
+  const matchingOption = Array.from(formatFilterEl.options).find(
+    (option) => option.value.trim().toLowerCase() === normalized
+  );
+
+  formatFilterEl.value = matchingOption ? matchingOption.value : "";
+}
+
+function syncUrlWithFilters() {
+  const params = new URLSearchParams();
+  const city = cityFilterEl.value.trim();
+  const format = formatFilterEl.value.trim();
+
+  if (city) {
+    params.set("city", city);
+  }
+
+  if (format) {
+    params.set("format", format);
+  }
+
+  if (state.userLocation) {
+    params.set("location", state.userLocation.query);
+    params.set("distance", String(state.userLocation.maxKm));
+  }
+
+  const query = params.toString();
+  const nextUrl = query
+    ? `${window.location.pathname}?${query}${window.location.hash}`
+    : `${window.location.pathname}${window.location.hash}`;
+
+  window.history.replaceState(null, "", nextUrl);
+}
+
+function currentFilterUrl() {
+  return window.location.href;
+}
+
+async function shareCurrentFilters() {
+  const originalLabel = shareFiltersBtn.textContent;
+  const shareUrl = currentFilterUrl();
+
+  try {
+    if (!navigator.clipboard || !window.isSecureContext) {
+      throw new Error("Clipboard unavailable");
+    }
+
+    await navigator.clipboard.writeText(shareUrl);
+    shareFiltersBtn.textContent = "Copied";
+  } catch (_) {
+    window.prompt("Copy this filter URL", shareUrl);
+    shareFiltersBtn.textContent = "Ready to copy";
+  }
+
+  window.setTimeout(() => {
+    shareFiltersBtn.textContent = originalLabel;
+  }, 1800);
+}
+
 function populateFormatOptions(events) {
   const formats = new Set();
   for (const eventItem of events) {
@@ -108,6 +190,8 @@ function populateFormatOptions(events) {
     option.textContent = format;
     formatFilterEl.appendChild(option);
   }
+
+  setFormatFilterValue(readFiltersFromUrl().format);
 }
 
 function haversineKm(lat1, lon1, lat2, lon2) {
@@ -510,6 +594,7 @@ function applyFilters(events) {
 
 function render() {
   const filtered = applyFilters(state.events);
+  syncUrlWithFilters();
   eventsEl.innerHTML = "";
 
   if (!filtered.length) {
@@ -579,6 +664,7 @@ function clearDistanceFilter() {
 }
 
 async function loadEvents() {
+  const initialFilters = applyUrlFiltersToInputs();
   const response = await fetch("./data/events.json", { cache: "no-cache" });
   if (!response.ok) {
     throw new Error(`Failed to load events.json (${response.status})`);
@@ -590,7 +676,14 @@ async function loadEvents() {
   normalizeEventCoordinates(state.events);
   hydrateCoordinatesFromCache(state.events);
   populateFormatOptions(state.events);
-  render();
+  setFormatFilterValue(initialFilters.format);
+
+  if (initialFilters.location && Number(initialFilters.distance || "0") > 0) {
+    await applyDistanceFilter();
+  } else {
+    render();
+  }
+
   mapMetaEl.textContent = "Adressen fuer Kartenmarker werden aufgeloest...";
   await ensureCoordinates(state.events);
   render();
@@ -599,6 +692,7 @@ async function loadEvents() {
 cityFilterEl.addEventListener("input", render);
 formatFilterEl.addEventListener("input", render);
 applyDistanceBtn.addEventListener("click", applyDistanceFilter);
+shareFiltersBtn.addEventListener("click", shareCurrentFilters);
 clearDistanceBtn.addEventListener("click", clearDistanceFilter);
 distanceLocationEl.addEventListener("keydown", (event) => {
   if (event.key === "Enter") {
