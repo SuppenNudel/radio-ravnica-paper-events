@@ -1,62 +1,8 @@
 {
-  "generated_at": "2026-07-10T23:07:00.012435",
+  "generated_at": "2026-07-11T16:00:04.067198",
   "server_id": "783441128119730236",
-  "count": 16,
+  "count": 15,
   "events": [
-    {
-      "id": 59,
-      "thread_id": "1517091226006851656",
-      "title": "TCG Festival 2026",
-      "start_at": "2026-07-11T00:00:00+02:00",
-      "end_at": "2026-07-12T00:00:00+02:00",
-      "location_name": "Carl-Benz-Strasse 15-17",
-      "location_address": "Carl-Benz-Strasse 15-17, 48734 Reken, Deutschland",
-      "location_city": "Reken",
-      "location_country": "Deutschland",
-      "location_lat": 51.8145447,
-      "location_lng": 7.0474935,
-      "location_state": null,
-      "location_url": null,
-      "location_osm_type": null,
-      "location_osm_id": null,
-      "location_place_id": null,
-      "fee_from": 30.0,
-      "fee_to": 60.0,
-      "fee_currency": "EUR",
-      "event_type": null,
-      "formats": [
-        "Commander"
-      ],
-      "url": "https://tcg-festival.de/",
-      "image_url": "https://mtg-uni.de/wp-content/uploads/2026/06/TCG_Festival_UNI_02.webp"
-    },
-    {
-      "id": 69,
-      "thread_id": "1520458692875522183",
-      "title": "Pauper Saturday",
-      "start_at": "2026-07-11T14:00:00+02:00",
-      "end_at": "2026-07-11T18:00:00+02:00",
-      "location_name": "Lokki Game Store GmbH",
-      "location_address": "Nassauer Str. 8, 61440 Oberursel (Taunus), Deutschland",
-      "location_city": "Oberursel (Taunus)",
-      "location_country": "Deutschland",
-      "location_lat": 50.1992436,
-      "location_lng": 8.5867338,
-      "location_state": null,
-      "location_url": null,
-      "location_osm_type": null,
-      "location_osm_id": null,
-      "location_place_id": null,
-      "fee_from": 5.0,
-      "fee_to": null,
-      "fee_currency": "EUR",
-      "event_type": null,
-      "formats": [
-        "Pauper"
-      ],
-      "url": "https://www.lokkigamestore.de/terminkalender",
-      "image_url": "https://le-cdn.website-editor.net/f34cd13cd01f487f98643ccc8847d5e9/dms3rep/multi/opt/Pauper+Collage-1920w.png"
-    },
     {
       "id": 75,
       "thread_id": "1523705083521531930",
@@ -246,6 +192,33 @@
       ],
       "url": "https://www.instagram.com/pauperstammtischregensburg/",
       "image_url": "https://scontent-dus1-1.cdninstagram.com/v/t51.82787-19/661574843_18071587451319946_6631782743952376319_n.jpg?stp=dst-jpg_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDI0LmMyIn0&_nc_ht=scontent-dus1-1.cdninstagram.com&_nc_cat=110&_nc_oc=Q6cZ2gF_M5ZZWcCu9Q42bgMMMBdiwBRtsF91L1C9ekL4P6AI-QnbA-qhuce1b7AQuVOigBE&_nc_ohc=Kh9Qm8sVTmcQ7kNvwFr_NSx&_nc_gid=ZsdbPzhNYnQ1wWYVpavZIw&edm=AP4sbd4BAAAA&ccb=7-5&oh=00_Af-9K0UjROziFAYNPhVupepCUsk7l_rXrxOywTEu1znT1Q&oe=6A3ED7AC&_nc_sid=7a9f4b"
+    },
+    {
+      "id": 82,
+      "thread_id": "1525532127372771493",
+      "title": "Pauper Saturday",
+      "start_at": "2026-07-25T14:00:00+02:00",
+      "end_at": "2026-07-25T18:00:00+02:00",
+      "location_name": "Lokki Game Store GmbH",
+      "location_address": "Nassauer Str. 8, 61440 Oberursel (Taunus), Deutschland",
+      "location_city": "Oberursel (Taunus)",
+      "location_country": "Deutschland",
+      "location_lat": 50.1992436,
+      "location_lng": 8.5867338,
+      "location_state": "Hessen",
+      "location_url": null,
+      "location_osm_type": null,
+      "location_osm_id": null,
+      "location_place_id": null,
+      "fee_from": 5.0,
+      "fee_to": null,
+      "fee_currency": "EUR",
+      "event_type": null,
+      "formats": [
+        "Pauper"
+      ],
+      "url": "https://www.lokkigamestore.de/terminkalender",
+      "image_url": "https://le-cdn.website-editor.net/f34cd13cd01f487f98643ccc8847d5e9/dms3rep/multi/opt/Pauper+Collage-1920w.png"
     },
     {
       "id": 67,
