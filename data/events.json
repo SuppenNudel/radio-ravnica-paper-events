@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-12T09:07:36.853311",
+  "generated_at": "2026-07-12T09:08:06.660877",
   "server_id": "783441128119730236",
   "count": 16,
   "events": [
@@ -259,11 +259,11 @@
       "location_country": "Deutschland",
       "location_lat": 50.578105,
       "location_lng": 8.6655664,
-      "location_state": null,
-      "location_url": null,
+      "location_state": "Hessen",
+      "location_url": "https://deck-dice-dungeons.de/der-laden-kommt/",
       "location_osm_type": null,
       "location_osm_id": null,
-      "location_place_id": null,
+      "location_place_id": "ChIJo_BercJZvEcRfPMMMq-pGNE",
       "fee_from": null,
       "fee_to": null,
       "fee_currency": "EUR",
