@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-12T07:08:22.439445",
+  "generated_at": "2026-07-12T08:57:56.835260",
   "server_id": "783441128119730236",
   "count": 16,
   "events": [
@@ -233,10 +233,10 @@
       "location_lat": 50.1992436,
       "location_lng": 8.5867338,
       "location_state": "Hessen",
-      "location_url": null,
+      "location_url": "https://www.lokkigamestore.de/",
       "location_osm_type": null,
       "location_osm_id": null,
-      "location_place_id": null,
+      "location_place_id": "ChIJX291qO6pvUcRzlAgcuQYzUk",
       "fee_from": 5.0,
       "fee_to": null,
       "fee_currency": "EUR",
