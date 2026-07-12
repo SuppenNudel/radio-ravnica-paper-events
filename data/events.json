@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-12T08:59:28.865248",
+  "generated_at": "2026-07-12T09:02:15.153947",
   "server_id": "783441128119730236",
   "count": 16,
   "events": [
@@ -16,10 +16,10 @@
       "location_lat": 49.4832931,
       "location_lng": 8.4464873,
       "location_state": "Rheinland-Pfalz",
-      "location_url": null,
+      "location_url": "https://www.irelandsownludwigshafen.de/",
       "location_osm_type": null,
       "location_osm_id": null,
-      "location_place_id": null,
+      "location_place_id": "ChIJ20lWWGrMl0cR222RPD4EtMs",
       "fee_from": null,
       "fee_to": null,
       "fee_currency": "EUR",
