@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-12T08:58:24.338360",
+  "generated_at": "2026-07-12T08:58:57.178350",
   "server_id": "783441128119730236",
   "count": 16,
   "events": [
@@ -314,10 +314,10 @@
       "location_lat": 49.99932159999999,
       "location_lng": 8.2093317,
       "location_state": "Rheinland-Pfalz",
-      "location_url": null,
+      "location_url": "https://retro-gonsenheim.de/",
       "location_osm_type": null,
       "location_osm_id": null,
-      "location_place_id": null,
+      "location_place_id": "ChIJ0zZkHSGUvUcRwRQwPrC_VRY",
       "fee_from": 0.0,
       "fee_to": null,
       "fee_currency": "EUR",
