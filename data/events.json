@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-12T09:05:57.915234",
+  "generated_at": "2026-07-12T09:06:48.086527",
   "server_id": "783441128119730236",
   "count": 16,
   "events": [
@@ -398,10 +398,10 @@
       "location_lat": 48.7087932,
       "location_lng": 9.6539023,
       "location_state": "Baden-W\u00fcrttemberg",
-      "location_url": null,
+      "location_url": "https://www.cvjm-gp.de/",
       "location_osm_type": null,
       "location_osm_id": null,
-      "location_place_id": null,
+      "location_place_id": "ChIJyaSSQ_KjmUcRlywAxu5hREw",
       "fee_from": 6.0,
       "fee_to": null,
       "fee_currency": "EUR",
