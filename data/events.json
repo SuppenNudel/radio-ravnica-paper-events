@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-12T09:08:06.660877",
+  "generated_at": "2026-07-12T16:25:40.402806",
   "server_id": "783441128119730236",
-  "count": 16,
+  "count": 17,
   "events": [
     {
       "id": 75,
@@ -300,6 +300,33 @@
       ],
       "url": "https://www.aquis-mana.de/",
       "image_url": "https://media.discordapp.net/attachments/1525015210270916661/1525017123229925376/IMG-20260709-WA0003.jpg?ex=6a51da5f&is=6a5088df&hm=7c8e133036bc1c4686bc56e704b5774b834687b4dcde9cb9f7f7fbdaa7bfbf9b&=&format=webp&width=1033&height=930"
+    },
+    {
+      "id": 84,
+      "thread_id": "1525900962861023437",
+      "title": "Magic the Gathering - Der Hobbit 45 Spieler Sealed - 08.08.26 - 12:00",
+      "start_at": "2026-08-08T12:00:00+02:00",
+      "end_at": "2026-08-08T20:00:00+02:00",
+      "location_name": "Geeksheaven",
+      "location_address": "Dauner Str. 4, 53919 Weilerswist, Deutschland",
+      "location_city": "Weilerswist",
+      "location_country": "Deutschland",
+      "location_lat": 50.7080224,
+      "location_lng": 6.8176709,
+      "location_state": "Nordrhein-Westfalen",
+      "location_url": "https://www.geeksheaven.de/",
+      "location_osm_type": null,
+      "location_osm_id": null,
+      "location_place_id": "ChIJEbiL4woRv0cR83vBwaN_VRI",
+      "fee_from": 40.0,
+      "fee_to": 40.0,
+      "fee_currency": "EUR",
+      "event_type": "Prerelease",
+      "formats": [
+        "Sealed"
+      ],
+      "url": "https://geeksheaven.de/products/turnier-vorlage?variant=53215775162635",
+      "image_url": "https://geeksheaven.de/cdn/shop/files/1783856117754_edit_332765007210089.png?v=1783856230&width=3840"
     },
     {
       "id": 79,
