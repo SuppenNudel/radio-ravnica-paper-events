@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-12T16:25:40.402806",
+  "generated_at": "2026-07-12T16:38:22.389682",
   "server_id": "783441128119730236",
-  "count": 17,
+  "count": 18,
   "events": [
     {
       "id": 75,
@@ -326,6 +326,33 @@
         "Sealed"
       ],
       "url": "https://geeksheaven.de/products/turnier-vorlage?variant=53215775162635",
+      "image_url": "https://geeksheaven.de/cdn/shop/files/1783856117754_edit_332765007210089.png?v=1783856230&width=3840"
+    },
+    {
+      "id": 85,
+      "thread_id": "1525904160686608590",
+      "title": "Magic the Gathering - Der Hobbit 8 Spieler Draft - 08.08.26 - 12:00",
+      "start_at": "2026-08-08T12:00:00+02:00",
+      "end_at": "2026-08-08T20:00:00+02:00",
+      "location_name": "Geeksheaven",
+      "location_address": "Dauner Str. 4, 53919 Weilerswist, Deutschland",
+      "location_city": "Weilerswist",
+      "location_country": "Deutschland",
+      "location_lat": 50.7080224,
+      "location_lng": 6.8176709,
+      "location_state": "Nordrhein-Westfalen",
+      "location_url": "https://www.geeksheaven.de/",
+      "location_osm_type": null,
+      "location_osm_id": null,
+      "location_place_id": "ChIJEbiL4woRv0cR83vBwaN_VRI",
+      "fee_from": 25.0,
+      "fee_to": 25.0,
+      "fee_currency": "EUR",
+      "event_type": "Prerelease",
+      "formats": [
+        "Draft"
+      ],
+      "url": "https://geeksheaven.de/products/magic-the-gathering-der-hobbit-8-spieler-draft-08-08-26-12-00?variant=53237261959435",
       "image_url": "https://geeksheaven.de/cdn/shop/files/1783856117754_edit_332765007210089.png?v=1783856230&width=3840"
     },
     {
