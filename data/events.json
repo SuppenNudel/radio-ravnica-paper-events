@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-12T16:38:22.389682",
+  "generated_at": "2026-07-12T16:45:17.581395",
   "server_id": "783441128119730236",
-  "count": 18,
+  "count": 19,
   "events": [
     {
       "id": 75,
@@ -111,6 +111,33 @@
       ],
       "url": "https://kroenchen-con.de/",
       "image_url": null
+    },
+    {
+      "id": 86,
+      "thread_id": "1525905900794282009",
+      "title": "Magic the Gathering Duel Commander - Precon Battle & Watchparty ProTour Amsterdam 18.07.2026 11:00 Uhr",
+      "start_at": "2026-07-18T11:00:00+02:00",
+      "end_at": "2026-07-18T20:00:00+02:00",
+      "location_name": "Geeksheaven",
+      "location_address": "Dauner Str. 4, 53919 Weilerswist, Deutschland",
+      "location_city": "Weilerswist",
+      "location_country": "Deutschland",
+      "location_lat": 50.7080224,
+      "location_lng": 6.8176709,
+      "location_state": "Nordrhein-Westfalen",
+      "location_url": "https://www.geeksheaven.de/",
+      "location_osm_type": null,
+      "location_osm_id": null,
+      "location_place_id": "ChIJEbiL4woRv0cR83vBwaN_VRI",
+      "fee_from": 10.0,
+      "fee_to": 10.0,
+      "fee_currency": "EUR",
+      "event_type": "Game Day",
+      "formats": [
+        "Commander"
+      ],
+      "url": "https://geeksheaven.de/products/magic-the-gathering-duel-commander-precon-battle-18-07-2026-11-00-uhr?variant=53147112866059",
+      "image_url": "https://geeksheaven.de/cdn/shop/files/1783776764581_edit_299558659447600.png?v=1783776968&width=3840"
     },
     {
       "id": 62,
