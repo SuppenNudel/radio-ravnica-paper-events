@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-12T08:57:56.835260",
+  "generated_at": "2026-07-12T08:58:24.338360",
   "server_id": "783441128119730236",
   "count": 16,
   "events": [
@@ -44,10 +44,10 @@
       "location_lat": 48.1359953,
       "location_lng": 11.5374151,
       "location_state": "Bayern",
-      "location_url": null,
+      "location_url": "https://www.augustiner-buergerheim.de/",
       "location_osm_type": null,
       "location_osm_id": null,
-      "location_place_id": null,
+      "location_place_id": "ChIJUW_IWajYnUcRSC_yvx5KjO8",
       "fee_from": null,
       "fee_to": null,
       "fee_currency": "EUR",
