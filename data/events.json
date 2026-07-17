@@ -1,35 +1,8 @@
 {
-  "generated_at": "2026-07-16T23:07:00.012796",
+  "generated_at": "2026-07-17T12:10:41.106846",
   "server_id": "783441128119730236",
   "count": 19,
   "events": [
-    {
-      "id": 1,
-      "thread_id": "1385872816926101596",
-      "title": "Magic Con Amsterdam",
-      "start_at": "2026-07-17T00:00:00+02:00",
-      "end_at": "2026-07-19T00:00:00+02:00",
-      "location_name": "Amsterdam RAI",
-      "location_address": "Europaplein 24, 1078 GZ Amsterdam, Niederlande",
-      "location_city": "Amsterdam",
-      "location_country": "Niederlande",
-      "location_lat": 52.3411906,
-      "location_lng": 4.8886156,
-      "location_state": "Noord-Holland",
-      "location_url": "https://www.rai.nl/",
-      "location_osm_type": null,
-      "location_osm_id": null,
-      "location_place_id": "ChIJJX7VYx8KxkcROJPQJKc3j6A",
-      "fee_from": null,
-      "fee_to": null,
-      "fee_currency": "EUR",
-      "event_type": "Pro Tour",
-      "formats": [
-        "Andere"
-      ],
-      "url": "https://mcamsterdam.mtgfestivals.com/en-us.html",
-      "image_url": null
-    },
     {
       "id": 72,
       "thread_id": "1522310613899153503",
@@ -327,6 +300,33 @@
       ],
       "url": "https://www.aquis-mana.de/",
       "image_url": "https://media.discordapp.net/attachments/1525015210270916661/1525017123229925376/IMG-20260709-WA0003.jpg?ex=6a51da5f&is=6a5088df&hm=7c8e133036bc1c4686bc56e704b5774b834687b4dcde9cb9f7f7fbdaa7bfbf9b&=&format=webp&width=1033&height=930"
+    },
+    {
+      "id": 89,
+      "thread_id": "1527648733863608476",
+      "title": "Spirit of Pauper #20",
+      "start_at": "2026-08-02T11:30:00+02:00",
+      "end_at": null,
+      "location_name": "Mana Games",
+      "location_address": "Blissestra\u00dfe 5, 10713 Berlin, Deutschland",
+      "location_city": "Berlin",
+      "location_country": "Deutschland",
+      "location_lat": 52.4860268,
+      "location_lng": 13.3207794,
+      "location_state": "Berlin",
+      "location_url": "https://managames.de/",
+      "location_osm_type": null,
+      "location_osm_id": null,
+      "location_place_id": "ChIJ65eOXMNRqEcRsDwu2e4tdYQ",
+      "fee_from": 15.0,
+      "fee_to": null,
+      "fee_currency": "EUR",
+      "event_type": null,
+      "formats": [
+        "Pauper"
+      ],
+      "url": "https://forms.gle/dWprBXxQBf49gDbn7",
+      "image_url": "https://preview.redd.it/spirit-of-pauper-a-pauper-tournament-in-berlin-germany-on-v0-hx4zeuxm0ldh1.jpeg?width=1080&crop=smart&auto=webp&s=ed6492392d98dbdd415cb51a8a3a339707b898d5"
     },
     {
       "id": 84,
