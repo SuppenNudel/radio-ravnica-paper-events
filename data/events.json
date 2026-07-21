@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-21T05:32:58.270232",
+  "generated_at": "2026-07-21T17:22:49.173318",
   "server_id": "783441128119730236",
-  "count": 17,
+  "count": 18,
   "events": [
     {
       "id": 88,
@@ -165,6 +165,33 @@
       ],
       "url": "https://www.aquis-mana.de/",
       "image_url": "https://media.discordapp.net/attachments/1525015210270916661/1525017123229925376/IMG-20260709-WA0003.jpg?ex=6a51da5f&is=6a5088df&hm=7c8e133036bc1c4686bc56e704b5774b834687b4dcde9cb9f7f7fbdaa7bfbf9b&=&format=webp&width=1033&height=930"
+    },
+    {
+      "id": 94,
+      "thread_id": "1529176835987079464",
+      "title": "Standard Showdown - Tabletop Dragon",
+      "start_at": "2026-08-01T14:30:00+02:00",
+      "end_at": "2026-08-01T18:30:00+02:00",
+      "location_name": "Sonnenhang 17",
+      "location_address": "Sonnenhang 17, 50127 Bergheim-Quadrath-Ichendorf, Deutschland",
+      "location_city": "Bergheim",
+      "location_country": "Deutschland",
+      "location_lat": 50.9389621,
+      "location_lng": 6.7039768,
+      "location_state": "Nordrhein-Westfalen",
+      "location_url": "https://maps.google.com/?cid=17446176894794290412",
+      "location_osm_type": null,
+      "location_osm_id": null,
+      "location_place_id": "ChIJW12vYIw4v0cR7FTXtnNFHfI",
+      "fee_from": null,
+      "fee_to": 5.0,
+      "fee_currency": "EUR",
+      "event_type": "Store Championship",
+      "formats": [
+        "Standard"
+      ],
+      "url": "https://www.tabletop-dragon.de/shop_de/magic-the-gathering-standard-showdown-marvel-super-heroes.html",
+      "image_url": null
     },
     {
       "id": 89,
