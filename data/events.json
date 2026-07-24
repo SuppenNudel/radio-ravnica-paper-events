@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-24T12:00:37.856584",
+  "generated_at": "2026-07-24T18:53:17.794012",
   "server_id": "783441128119730236",
-  "count": 18,
+  "count": 19,
   "events": [
     {
       "id": 83,
@@ -273,6 +273,33 @@
       ],
       "url": "https://geeksheaven.de/products/magic-the-gathering-der-hobbit-8-spieler-draft-08-08-26-12-00?variant=53237261959435",
       "image_url": "https://geeksheaven.de/cdn/shop/files/1783856117754_edit_332765007210089.png?v=1783856230&width=3840"
+    },
+    {
+      "id": 96,
+      "thread_id": "1530286767972941899",
+      "title": "\u00d6cher Modern Series Vol. 1",
+      "start_at": "2026-08-09T12:00:00+02:00",
+      "end_at": null,
+      "location_name": "Roermonder Str. 20",
+      "location_address": "Roermonder Str. 20, 52072 Aachen, Deutschland",
+      "location_city": "Aachen",
+      "location_country": "Deutschland",
+      "location_lat": 50.7827062,
+      "location_lng": 6.077084399999999,
+      "location_state": "Nordrhein-Westfalen",
+      "location_url": "https://maps.google.com/?cid=2871628409017136645",
+      "location_osm_type": null,
+      "location_osm_id": null,
+      "location_place_id": "ChIJ_-VyC3eZwEcRBfZiztIS2ic",
+      "fee_from": 20.0,
+      "fee_to": null,
+      "fee_currency": "EUR",
+      "event_type": "Andere(r)",
+      "formats": [
+        "Modern"
+      ],
+      "url": "https://melee.gg/Tournament/View/447882",
+      "image_url": null
     },
     {
       "id": 79,
