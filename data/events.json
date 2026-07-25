@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-24T23:07:00.047794",
+  "generated_at": "2026-07-25T07:53:42.357660",
   "server_id": "783441128119730236",
-  "count": 19,
+  "count": 20,
   "events": [
     {
       "id": 83,
@@ -165,6 +165,33 @@
       ],
       "url": "https://www.aquis-mana.de/",
       "image_url": "https://media.discordapp.net/attachments/1525015210270916661/1525017123229925376/IMG-20260709-WA0003.jpg?ex=6a51da5f&is=6a5088df&hm=7c8e133036bc1c4686bc56e704b5774b834687b4dcde9cb9f7f7fbdaa7bfbf9b&=&format=webp&width=1033&height=930"
+    },
+    {
+      "id": 97,
+      "thread_id": "1530483165578268708",
+      "title": "\u00d6cher Pauper Series Vol. 1",
+      "start_at": "2026-08-01T12:00:00+02:00",
+      "end_at": null,
+      "location_name": "Roermonder Str. 20",
+      "location_address": "Roermonder Str. 20, 52072 Aachen, Deutschland",
+      "location_city": "Aachen",
+      "location_country": "Deutschland",
+      "location_lat": 50.7827062,
+      "location_lng": 6.077084399999999,
+      "location_state": "Nordrhein-Westfalen",
+      "location_url": "https://maps.google.com/?cid=2871628409017136645",
+      "location_osm_type": null,
+      "location_osm_id": null,
+      "location_place_id": "ChIJ_-VyC3eZwEcRBfZiztIS2ic",
+      "fee_from": 15.0,
+      "fee_to": null,
+      "fee_currency": "EUR",
+      "event_type": "Andere(r)",
+      "formats": [
+        "Pauper"
+      ],
+      "url": "https://www.instagram.com/p/Dano8Rio8dl/?igsh=MTVoYXNmNjBycnF6cQ==",
+      "image_url": "https://www.instagram.com/p/Dano8Rio8dl/?igsh=MTVoYXNmNjBycnF6cQ=="
     },
     {
       "id": 94,
