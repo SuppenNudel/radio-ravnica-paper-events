@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-26T23:07:00.021982",
+  "generated_at": "2026-07-27T15:00:03.265416",
   "server_id": "783441128119730236",
-  "count": 19,
+  "count": 20,
   "events": [
     {
       "id": 93,
@@ -192,6 +192,34 @@
       ],
       "url": "https://forms.gle/dWprBXxQBf49gDbn7",
       "image_url": "https://preview.redd.it/spirit-of-pauper-a-pauper-tournament-in-berlin-germany-on-v0-hx4zeuxm0ldh1.jpeg?width=1080&crop=smart&auto=webp&s=ed6492392d98dbdd415cb51a8a3a339707b898d5"
+    },
+    {
+      "id": 99,
+      "thread_id": "1531315229420683371",
+      "title": "TCG Night",
+      "start_at": "2026-08-03T17:00:00+02:00",
+      "end_at": null,
+      "location_name": "Ireland's Own - Irish Pub Ludwigshafen",
+      "location_address": "Bahnhofstra\u00dfe 13, 67059 Ludwigshafen am Rhein, Deutschland",
+      "location_city": "Ludwigshafen am Rhein",
+      "location_country": "Deutschland",
+      "location_lat": 49.4832931,
+      "location_lng": 8.4464873,
+      "location_state": "Rheinland-Pfalz",
+      "location_url": "https://www.irelandsownludwigshafen.de/",
+      "location_osm_type": null,
+      "location_osm_id": null,
+      "location_place_id": "ChIJ20lWWGrMl0cR222RPD4EtMs",
+      "fee_from": null,
+      "fee_to": null,
+      "fee_currency": "EUR",
+      "event_type": null,
+      "formats": [
+        "Commander",
+        "Pauper"
+      ],
+      "url": "https://beacons.ai/pauperimpub",
+      "image_url": "https://media.discordapp.net/attachments/1313591368471547965/1525789959993298964/643319147_1544863627642928_7318041436827801025_n.png?ex=6a54aa22&is=6a5358a2&hm=6fb187713bc7459182b7f9c8488113e3acf4132b093dc648058748858d88dc16&=&format=webp&quality=lossless&width=744&height=930"
     },
     {
       "id": 84,
