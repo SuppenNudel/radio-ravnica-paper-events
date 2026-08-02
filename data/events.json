@@ -1,35 +1,8 @@
 {
-  "generated_at": "2026-08-01T23:07:00.033941",
+  "generated_at": "2026-08-02T23:07:00.043980",
   "server_id": "783441128119730236",
-  "count": 15,
+  "count": 14,
   "events": [
-    {
-      "id": 89,
-      "thread_id": "1527648733863608476",
-      "title": "Spirit of Pauper #20",
-      "start_at": "2026-08-02T11:30:00+02:00",
-      "end_at": null,
-      "location_name": "Mana Games",
-      "location_address": "Blissestra\u00dfe 5, 10713 Berlin, Deutschland",
-      "location_city": "Berlin",
-      "location_country": "Deutschland",
-      "location_lat": 52.4860268,
-      "location_lng": 13.3207794,
-      "location_state": "Berlin",
-      "location_url": "https://managames.de/",
-      "location_osm_type": null,
-      "location_osm_id": null,
-      "location_place_id": "ChIJ65eOXMNRqEcRsDwu2e4tdYQ",
-      "fee_from": 15.0,
-      "fee_to": null,
-      "fee_currency": "EUR",
-      "event_type": null,
-      "formats": [
-        "Pauper"
-      ],
-      "url": "https://forms.gle/dWprBXxQBf49gDbn7",
-      "image_url": "https://preview.redd.it/spirit-of-pauper-a-pauper-tournament-in-berlin-germany-on-v0-hx4zeuxm0ldh1.jpeg?width=1080&crop=smart&auto=webp&s=ed6492392d98dbdd415cb51a8a3a339707b898d5"
-    },
     {
       "id": 99,
       "thread_id": "1531315229420683371",
