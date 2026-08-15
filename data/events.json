@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-15T13:00:02.419989",
+  "generated_at": "2026-08-15T15:30:02.594666",
   "server_id": "783441128119730236",
-  "count": 11,
+  "count": 12,
   "events": [
     {
       "id": 105,
@@ -249,6 +249,33 @@
       ],
       "url": "https://countdown-spielewelt.de/event/monatliches-pauper-turnier-6/",
       "image_url": "https://countdown-spielewelt.de/wp-content/uploads/2023/10/Erebos-Bleak-Hearted-Alternate-Theros-Beyond-Death-Art.webp"
+    },
+    {
+      "id": 110,
+      "thread_id": "1538208149767721054",
+      "title": "Siegener Legacy Turnier",
+      "start_at": "2026-09-19T12:30:00+02:00",
+      "end_at": "2026-09-19T17:30:00+02:00",
+      "location_name": "Universit\u00e4t Siegen",
+      "location_address": "Adolf-Reichwein-Stra\u00dfe 2a, 57076 Siegen, Deutschland",
+      "location_city": "Siegen",
+      "location_country": "Deutschland",
+      "location_lat": 50.91109909999999,
+      "location_lng": 8.025422899999999,
+      "location_state": "Nordrhein-Westfalen",
+      "location_url": "http://www.uni-siegen.de/",
+      "location_osm_type": null,
+      "location_osm_id": null,
+      "location_place_id": "ChIJN0h22kkDvEcRYOuert7Ywr4",
+      "fee_from": 8.0,
+      "fee_to": null,
+      "fee_currency": "EUR",
+      "event_type": "FNM",
+      "formats": [
+        "Legacy"
+      ],
+      "url": null,
+      "image_url": "https://media.discordapp.net/attachments/1203023396678406196/1523619496416378950/content.png?ex=6a4cc4bb&is=6a4b733b&hm=1c64d50271c0b989aada8a065780a66f249511028952a474faa7d38a32d4bd26&=&format=webp&quality=lossless&width=583&height=438"
     },
     {
       "id": 13,
