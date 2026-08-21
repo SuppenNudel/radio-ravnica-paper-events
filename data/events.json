@@ -1,38 +1,8 @@
 {
-  "generated_at": "2026-08-20T23:07:00.009768",
+  "generated_at": "2026-08-21T23:07:00.008663",
   "server_id": "783441128119730236",
-  "count": 12,
+  "count": 11,
   "events": [
-    {
-      "id": 23,
-      "thread_id": "1492952367476248608",
-      "title": "Lotus Vale Series",
-      "start_at": "2026-08-21T00:00:00+02:00",
-      "end_at": "2026-08-23T00:00:00+02:00",
-      "location_name": "Flottmann-Hallen",
-      "location_address": "Str. des Bohrhammers 5, 44625 Herne, Deutschland",
-      "location_city": "Herne",
-      "location_country": "Deutschland",
-      "location_lat": 51.5223168,
-      "location_lng": 7.225470099999999,
-      "location_state": "Nordrhein-Westfalen",
-      "location_url": "http://www.flottmann-hallen.de/",
-      "location_osm_type": null,
-      "location_osm_id": null,
-      "location_place_id": "ChIJd3meeL_huEcRZLbZYuqkVR4",
-      "fee_from": null,
-      "fee_to": null,
-      "fee_currency": "EUR",
-      "event_type": null,
-      "formats": [
-        "Modern",
-        "Legacy",
-        "Pauper",
-        "Commander"
-      ],
-      "url": "https://lotusvale-bochum.de/lotusvale-series/",
-      "image_url": null
-    },
     {
       "id": 106,
       "thread_id": "1536773020260106334",
