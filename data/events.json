@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-22T23:07:00.009707",
+  "generated_at": "2026-08-23T09:00:03.501540",
   "server_id": "783441128119730236",
-  "count": 10,
+  "count": 11,
   "events": [
     {
       "id": 92,
@@ -219,6 +219,33 @@
       ],
       "url": null,
       "image_url": "https://media.discordapp.net/attachments/1203023396678406196/1523619496416378950/content.png?ex=6a4cc4bb&is=6a4b733b&hm=1c64d50271c0b989aada8a065780a66f249511028952a474faa7d38a32d4bd26&=&format=webp&quality=lossless&width=583&height=438"
+    },
+    {
+      "id": 114,
+      "thread_id": "1541009105525678097",
+      "title": "Pauper Stammtisch Regensburg",
+      "start_at": "2026-09-20T11:00:00+02:00",
+      "end_at": null,
+      "location_name": "Daimlerstra\u00dfe 27",
+      "location_address": "Daimlerstra\u00dfe 27, 93053 Regensburg, Deutschland",
+      "location_city": "Regensburg",
+      "location_country": "Deutschland",
+      "location_lat": 49.00739429999999,
+      "location_lng": 12.1226208,
+      "location_state": "Bayern",
+      "location_url": null,
+      "location_osm_type": null,
+      "location_osm_id": null,
+      "location_place_id": null,
+      "fee_from": 10.0,
+      "fee_to": null,
+      "fee_currency": "EUR",
+      "event_type": null,
+      "formats": [
+        "Pauper"
+      ],
+      "url": "https://www.instagram.com/pauperstammtischregensburg/",
+      "image_url": "https://scontent-fra5-1.cdninstagram.com/v/t51.82787-19/661574843_18071587451319946_6631782743952376319_n.jpg?stp=dst-jpg_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDI0LmMyIn0&_nc_ht=scontent-fra5-1.cdninstagram.com&_nc_cat=110&_nc_oc=Q6cZ2gFLd8kkF9QD6_e-91R4WIDYjtulRST_HZ_SuwNySSpnd7fnZqLqvIbBbcC_U2obUNE&_nc_ohc=csmO_IOaj6sQ7kNvwGNZxVB&_nc_gid=GPs0McLtwAQG8ztGrHOaig&edm=AP4sbd4BAAAA&ccb=7-5&oh=00_AQAoJDsrzJOG-ztKa34M_ZgOYHIQUhYP8Tb_IYSOKqST0g&oe=6A662C6C&_nc_sid=7a9f4b"
     },
     {
       "id": 13,
