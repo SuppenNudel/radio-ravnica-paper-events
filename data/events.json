@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-02T09:37:43.346670",
+  "generated_at": "2026-09-02T09:44:45.134861",
   "server_id": "783441128119730236",
-  "count": 11,
+  "count": 12,
   "events": [
     {
       "id": 116,
@@ -165,6 +165,33 @@
       ],
       "url": "https://melee.gg/Tournament/View/449289",
       "image_url": "https://cdn.melee.gg/userphotos/brandimages/f84e0756-231a-4979-b81b-542875059bd4.jpg"
+    },
+    {
+      "id": 119,
+      "thread_id": "1544644237969330200",
+      "title": "\u00d6cher Pauper Series v2",
+      "start_at": "2026-09-13T12:00:00+02:00",
+      "end_at": "2026-09-13T20:00:00+02:00",
+      "location_name": "Roermonder Str. 20",
+      "location_address": "Roermonder Str. 20, 52072 Aachen, Deutschland",
+      "location_city": "Aachen",
+      "location_country": "Deutschland",
+      "location_lat": 50.7827062,
+      "location_lng": 6.077084399999999,
+      "location_state": "Nordrhein-Westfalen",
+      "location_url": "https://maps.google.com/?cid=2871628409017136645",
+      "location_osm_type": null,
+      "location_osm_id": null,
+      "location_place_id": "ChIJ_-VyC3eZwEcRBfZiztIS2ic",
+      "fee_from": 15.0,
+      "fee_to": null,
+      "fee_currency": "EUR",
+      "event_type": null,
+      "formats": [
+        "Pauper"
+      ],
+      "url": "https://melee.gg/Tournament/View/449292",
+      "image_url": "https://cdn.melee.gg/userphotos/brandimages/a9191fc7-b186-4211-ad51-b5318a6f94c7.jpg"
     },
     {
       "id": 109,
