@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-02T08:26:35.423994",
+  "generated_at": "2026-09-02T09:37:43.346670",
   "server_id": "783441128119730236",
-  "count": 10,
+  "count": 11,
   "events": [
     {
       "id": 116,
@@ -138,6 +138,33 @@
       ],
       "url": "https://chat.whatsapp.com/HDbPOdobwtZ1gEKlj6o9if?s=cl&p=a&mlu=0&amv=0",
       "image_url": "https://media.discordapp.net/attachments/1313591368471547965/1513080586703601744/650329542_946803741194336_7581401439464502061_n.png?ex=6a266d9b&is=6a251c1b&hm=0c7910b324dbad04fdb38ffa0966fad251b0bd392c4c8e9b08e8556579e4eb09&=&format=webp&quality=lossless&width=800&height=800"
+    },
+    {
+      "id": 118,
+      "thread_id": "1544642468522238006",
+      "title": "\u00d6cher Modern Series v2",
+      "start_at": "2026-09-12T12:00:00+02:00",
+      "end_at": "2026-09-12T20:00:00+02:00",
+      "location_name": "Roermonder Str. 20",
+      "location_address": "Roermonder Str. 20, 52072 Aachen, Deutschland",
+      "location_city": "Aachen",
+      "location_country": "Deutschland",
+      "location_lat": 50.7827062,
+      "location_lng": 6.077084399999999,
+      "location_state": "Nordrhein-Westfalen",
+      "location_url": "https://maps.google.com/?cid=2871628409017136645",
+      "location_osm_type": null,
+      "location_osm_id": null,
+      "location_place_id": "ChIJ_-VyC3eZwEcRBfZiztIS2ic",
+      "fee_from": 20.0,
+      "fee_to": null,
+      "fee_currency": "EUR",
+      "event_type": "Andere(r)",
+      "formats": [
+        "Modern"
+      ],
+      "url": "https://melee.gg/Tournament/View/449289",
+      "image_url": "https://cdn.melee.gg/userphotos/brandimages/f84e0756-231a-4979-b81b-542875059bd4.jpg"
     },
     {
       "id": 109,
