@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-08T00:46:06.742635",
+  "generated_at": "2026-09-08T09:38:12.504570",
   "server_id": "783441128119730236",
-  "count": 12,
+  "count": 13,
   "events": [
     {
       "id": 107,
@@ -300,6 +300,33 @@
       ],
       "url": null,
       "image_url": "https://cdn.discordapp.com/attachments/784931146395811840/1485348763940683927/1774176048734.png?ex=69c18a55&is=69c038d5&hm=43dc557b52ffd996d40a412c490afa06ce9cb7c986c929872406d53bcf9e41c5&"
+    },
+    {
+      "id": 124,
+      "thread_id": "1546816904935641125",
+      "title": "PauperParty #5 - Fire & Ice Edition",
+      "start_at": "2026-10-24T10:30:00+02:00",
+      "end_at": "2026-10-24T21:00:00+02:00",
+      "location_name": "Schlachthof - Jugend & Kultur",
+      "location_address": "Dreyspringstra\u00dfe 16, 77933 Lahr/Schwarzwald, Deutschland",
+      "location_city": "Lahr/Schwarzwald",
+      "location_country": "Deutschland",
+      "location_lat": 48.33832,
+      "location_lng": 7.859800000000001,
+      "location_state": "Baden-W\u00fcrttemberg",
+      "location_url": "http://www.schlachthof-lahr.de/",
+      "location_osm_type": null,
+      "location_osm_id": null,
+      "location_place_id": "ChIJBUOaLjcukUcRdhUKcnAStXI",
+      "fee_from": 25.0,
+      "fee_to": null,
+      "fee_currency": "EUR",
+      "event_type": "Andere(r)",
+      "formats": [
+        "Pauper"
+      ],
+      "url": "https://pauperparty.de",
+      "image_url": null
     },
     {
       "id": 104,
