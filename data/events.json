@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-08T23:07:00.017484",
+  "generated_at": "2026-09-09T08:31:06.773740",
   "server_id": "783441128119730236",
-  "count": 13,
+  "count": 14,
   "events": [
     {
       "id": 107,
@@ -354,6 +354,33 @@
       ],
       "url": "https://www.pauperwithpurpose.de",
       "image_url": "https://media.discordapp.net/attachments/1536299386319933501/1536300108101062656/WhatsApp_Image_2026-07-29_at_13.48.32.jpeg?ex=6a7ae678&is=6a7994f8&hm=3e676c572f3b968d1449b7a15dc6b25892b5ea020ab59317afb58f3d54fdb727&=&format=webp&width=724&height=1024"
+    },
+    {
+      "id": 125,
+      "thread_id": "1547162421041438734",
+      "title": "Pauper in W\u00fcrzburg 21. Nov",
+      "start_at": "2026-11-21T10:00:00+01:00",
+      "end_at": null,
+      "location_name": "Dragonlord Games W\u00fcrzburg",
+      "location_address": "Wenzelstra\u00dfe 18, 97084 W\u00fcrzburg, Deutschland",
+      "location_city": "W\u00fcrzburg",
+      "location_country": "Deutschland",
+      "location_lat": 49.7652219,
+      "location_lng": 9.9482514,
+      "location_state": "Bayern",
+      "location_url": "https://www.dlgwuerzburg.de/",
+      "location_osm_type": null,
+      "location_osm_id": null,
+      "location_place_id": "ChIJAVAPaXKPokcR7jsRIIqM3z0",
+      "fee_from": 25.0,
+      "fee_to": null,
+      "fee_currency": "EUR",
+      "event_type": null,
+      "formats": [
+        "Pauper"
+      ],
+      "url": "https://www.dlgwuerzburg.de/event-details/prep-for-geddon",
+      "image_url": null
     }
   ]
 }
