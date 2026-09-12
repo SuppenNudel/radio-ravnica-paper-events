@@ -1,35 +1,8 @@
 {
-  "generated_at": "2026-09-11T23:07:00.008991",
+  "generated_at": "2026-09-12T23:07:00.016341",
   "server_id": "783441128119730236",
-  "count": 14,
+  "count": 13,
   "events": [
-    {
-      "id": 118,
-      "thread_id": "1544642468522238006",
-      "title": "\u00d6cher Modern Series v2",
-      "start_at": "2026-09-12T12:00:00+02:00",
-      "end_at": "2026-09-12T20:00:00+02:00",
-      "location_name": "Roermonder Str. 20",
-      "location_address": "Roermonder Str. 20, 52072 Aachen, Deutschland",
-      "location_city": "Aachen",
-      "location_country": "Deutschland",
-      "location_lat": 50.7827062,
-      "location_lng": 6.077084399999999,
-      "location_state": "Nordrhein-Westfalen",
-      "location_url": "https://maps.google.com/?cid=2871628409017136645",
-      "location_osm_type": null,
-      "location_osm_id": null,
-      "location_place_id": "ChIJ_-VyC3eZwEcRBfZiztIS2ic",
-      "fee_from": 20.0,
-      "fee_to": null,
-      "fee_currency": "EUR",
-      "event_type": "Andere(r)",
-      "formats": [
-        "Modern"
-      ],
-      "url": "https://melee.gg/Tournament/View/449289",
-      "image_url": "https://cdn.melee.gg/userphotos/brandimages/f84e0756-231a-4979-b81b-542875059bd4.jpg"
-    },
     {
       "id": 119,
       "thread_id": "1544644237969330200",
