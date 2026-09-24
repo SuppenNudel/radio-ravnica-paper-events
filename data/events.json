@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-23T23:07:00.017366",
+  "generated_at": "2026-09-24T09:21:58.986579",
   "server_id": "783441128119730236",
-  "count": 11,
+  "count": 12,
   "events": [
     {
       "id": 129,
@@ -84,6 +84,33 @@
       ],
       "url": "https://www.lokkigamestore.de/terminkalender",
       "image_url": "https://le-cdn.website-editor.net/f34cd13cd01f487f98643ccc8847d5e9/dms3rep/multi/opt/Pauper+Collage-1920w.png"
+    },
+    {
+      "id": 134,
+      "thread_id": "1552611038719901746",
+      "title": "\u2600\ufe0f\ud83d\uddfb\ud83d\udca7**Spirit of Pauper #21**\ud83d\udca7\ud83d\uddfb\u2600\ufe0f",
+      "start_at": "2026-10-04T11:30:00+02:00",
+      "end_at": null,
+      "location_name": "Mana Games",
+      "location_address": "Blissestra\u00dfe 5, 10713 Berlin, Deutschland",
+      "location_city": "Berlin",
+      "location_country": "Deutschland",
+      "location_lat": 52.4860268,
+      "location_lng": 13.3207794,
+      "location_state": "Berlin",
+      "location_url": "https://managames.de/",
+      "location_osm_type": null,
+      "location_osm_id": null,
+      "location_place_id": "ChIJ65eOXMNRqEcRsDwu2e4tdYQ",
+      "fee_from": 15.0,
+      "fee_to": null,
+      "fee_currency": "EUR",
+      "event_type": "Andere(r)",
+      "formats": [
+        "Pauper"
+      ],
+      "url": null,
+      "image_url": "https://cdn.discordapp.com/attachments/1373186342166597746/1551691539888078868/SPIRIT-OF-PAUPER-21.jpg?ex=6ab6309c&is=6ab4df1c&hm=64b9c31be34f2505c76e45325692527dd6b9efd0f279de2624fb8ababbd0bbeb&"
     },
     {
       "id": 121,
