@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-08T21:31:59.336023",
+  "generated_at": "2026-10-08T21:37:25.814660",
   "server_id": "783441128119730236",
-  "count": 13,
+  "count": 14,
   "events": [
     {
       "id": 121,
@@ -273,6 +273,33 @@
       ],
       "url": "https://www.pauperwithpurpose.de",
       "image_url": "https://media.discordapp.net/attachments/1536299386319933501/1536300108101062656/WhatsApp_Image_2026-07-29_at_13.48.32.jpeg?ex=6a7ae678&is=6a7994f8&hm=3e676c572f3b968d1449b7a15dc6b25892b5ea020ab59317afb58f3d54fdb727&=&format=webp&width=724&height=1024"
+    },
+    {
+      "id": 143,
+      "thread_id": "1557869551960588362",
+      "title": "\u00d6cher Modern Series v3",
+      "start_at": "2026-10-31T11:00:00+01:00",
+      "end_at": "2026-10-31T20:00:00+01:00",
+      "location_name": "Roermonder Str. 20",
+      "location_address": "Roermonder Str. 20, 52072 Aachen, Deutschland",
+      "location_city": "Aachen",
+      "location_country": "Deutschland",
+      "location_lat": 50.7827062,
+      "location_lng": 6.077084399999999,
+      "location_state": "Nordrhein-Westfalen",
+      "location_url": "https://maps.google.com/?cid=2871628409017136645",
+      "location_osm_type": null,
+      "location_osm_id": null,
+      "location_place_id": "ChIJ_-VyC3eZwEcRBfZiztIS2ic",
+      "fee_from": 20.0,
+      "fee_to": null,
+      "fee_currency": "EUR",
+      "event_type": "Andere(r)",
+      "formats": [
+        "Modern"
+      ],
+      "url": "https://melee.gg/Tournament/View/474792",
+      "image_url": "https://cdn.melee.gg/userphotos/brandimages/d406e5ba-f9d0-4dea-a932-011cdab8ede3.jpg"
     },
     {
       "id": 142,
