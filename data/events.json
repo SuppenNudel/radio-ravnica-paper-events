@@ -1,35 +1,8 @@
 {
-  "generated_at": "2026-10-09T23:07:00.017088",
+  "generated_at": "2026-10-10T18:10:19.197219",
   "server_id": "783441128119730236",
-  "count": 14,
+  "count": 13,
   "events": [
-    {
-      "id": 13,
-      "thread_id": "1485354466256617555",
-      "title": "Legacy Hannover Stadtmeisterschaft 2026",
-      "start_at": "2026-10-10T00:00:00+02:00",
-      "end_at": null,
-      "location_name": "Hanover",
-      "location_address": "30 Hannover, Deutschland",
-      "location_city": "Hannover",
-      "location_country": "Deutschland",
-      "location_lat": 52.3758916,
-      "location_lng": 9.732010400000002,
-      "location_state": null,
-      "location_url": null,
-      "location_osm_type": null,
-      "location_osm_id": null,
-      "location_place_id": null,
-      "fee_from": null,
-      "fee_to": null,
-      "fee_currency": "EUR",
-      "event_type": null,
-      "formats": [
-        "Legacy"
-      ],
-      "url": null,
-      "image_url": "https://cdn.discordapp.com/attachments/784931146395811840/1485348763940683927/1774176048734.png?ex=69c18a55&is=69c038d5&hm=43dc557b52ffd996d40a412c490afa06ce9cb7c986c929872406d53bcf9e41c5&"
-    },
     {
       "id": 139,
       "thread_id": "1556682379169497282",
