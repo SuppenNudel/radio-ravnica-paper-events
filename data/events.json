@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T23:07:00.016521",
+  "generated_at": "2026-10-13T10:13:22.094741",
   "server_id": "783441128119730236",
-  "count": 13,
+  "count": 14,
   "events": [
     {
       "id": 126,
@@ -327,6 +327,33 @@
       ],
       "url": "https://tcg-cabin.com/event/pauper-madness/",
       "image_url": "https://tcg-cabin.com/wp-content/uploads/2026/06/cropped-2FA32481-3A6E-4DC1-A01E-E9B8D03124E0-1.png"
+    },
+    {
+      "id": 146,
+      "thread_id": "1559509339960639633",
+      "title": "Pauper Madness - TCG Cabin",
+      "start_at": "2026-11-14T09:30:00+01:00",
+      "end_at": "2026-11-14T22:00:00+01:00",
+      "location_name": "Burgunder Platz",
+      "location_address": "Burgunder Platz, 67117 Limburgerhof, Deutschland",
+      "location_city": "Limburgerhof",
+      "location_country": "Deutschland",
+      "location_lat": 49.4226981,
+      "location_lng": 8.393589799999999,
+      "location_state": "Rheinland-Pfalz",
+      "location_url": "https://maps.google.com/?cid=1934119760965845698",
+      "location_osm_type": null,
+      "location_osm_id": null,
+      "location_place_id": "ChIJ-7NUr_zKl0cRwsJu2axf1xo",
+      "fee_from": 30.0,
+      "fee_to": null,
+      "fee_currency": "EUR",
+      "event_type": "Andere(r)",
+      "formats": [
+        "Pauper"
+      ],
+      "url": "https://tcg-cabin.com/event/pauper-madness/",
+      "image_url": null
     },
     {
       "id": 125,
