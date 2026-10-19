@@ -1,35 +1,8 @@
 {
-  "generated_at": "2026-10-19T13:49:49.988657",
+  "generated_at": "2026-10-19T23:07:00.013737",
   "server_id": "783441128119730236",
-  "count": 13,
+  "count": 12,
   "events": [
-    {
-      "id": 147,
-      "thread_id": "1559513562446037126",
-      "title": "Pauper im Pub - Ireland's Own Ludwigshafen",
-      "start_at": "2026-10-19T18:30:00+02:00",
-      "end_at": "2026-10-19T22:30:00+02:00",
-      "location_name": "Ireland's Own - Irish Pub Ludwigshafen",
-      "location_address": "Bahnhofstra\u00dfe 13, 67059 Ludwigshafen am Rhein, Deutschland",
-      "location_city": "Ludwigshafen am Rhein",
-      "location_country": "Deutschland",
-      "location_lat": 49.4832931,
-      "location_lng": 8.4464873,
-      "location_state": "Rheinland-Pfalz",
-      "location_url": "https://www.irelandsownludwigshafen.de/",
-      "location_osm_type": null,
-      "location_osm_id": null,
-      "location_place_id": "ChIJ20lWWGrMl0cR222RPD4EtMs",
-      "fee_from": 5.0,
-      "fee_to": null,
-      "fee_currency": "EUR",
-      "event_type": "Andere(r)",
-      "formats": [
-        "Pauper"
-      ],
-      "url": "https://tcg-cabin.com/pauper-rangliste-2026-27/",
-      "image_url": null
-    },
     {
       "id": 149,
       "thread_id": "1560321359740141642",
