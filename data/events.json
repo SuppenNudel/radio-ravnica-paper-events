@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-24T08:52:26.780895",
+  "generated_at": "2026-10-24T09:15:01.413042",
   "server_id": "783441128119730236",
-  "count": 12,
+  "count": 13,
   "events": [
     {
       "id": 124,
@@ -83,6 +83,33 @@
       ],
       "url": "https://discord.com/channels/1171912804874334248/1318995541660667905",
       "image_url": "https://media.discordapp.net/attachments/1310488840443789344/1318997513990045707/Cover_Link.png?ex=69fec9e9&is=69fd7869&hm=491f2c52d6b44bb8e42df5975137068e7b145413b636d721d6f459c4e2643bdb&=&format=webp&quality=lossless&width=930&height=930"
+    },
+    {
+      "id": 154,
+      "thread_id": "1563480923784355927",
+      "title": "Standard Store Championship -  Reality Fracture",
+      "start_at": "2026-10-30T18:00:00+01:00",
+      "end_at": "2026-10-30T22:00:00+01:00",
+      "location_name": "Sonnenhang 17",
+      "location_address": "Sonnenhang 17, 50127 Bergheim-Quadrath-Ichendorf, Deutschland",
+      "location_city": "Bergheim",
+      "location_country": "Deutschland",
+      "location_lat": 50.9389621,
+      "location_lng": 6.7039768,
+      "location_state": "Nordrhein-Westfalen",
+      "location_url": "https://maps.google.com/?cid=17446176894794290412",
+      "location_osm_type": null,
+      "location_osm_id": null,
+      "location_place_id": "ChIJW12vYIw4v0cR7FTXtnNFHfI",
+      "fee_from": 10.5,
+      "fee_to": null,
+      "fee_currency": "EUR",
+      "event_type": "Store Championship",
+      "formats": [
+        "Standard"
+      ],
+      "url": "https://www.tabletop-dragon.de/shop_de/events/magic-the-gathering-standard-showdown-marvel-super-heroes-2.html",
+      "image_url": "https://www.tabletop-dragon.de/media/amasty/webp/catalog/product/cache/c4218f1997800f206b38e4323d8d1cf4/t/i/titelbild_blogartikel_-_mtg_reality_fracture_8f785a38-e0b4-4fba-a32c-b948a4393f96_png.webp"
     },
     {
       "id": 143,
