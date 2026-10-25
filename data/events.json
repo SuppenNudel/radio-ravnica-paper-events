@@ -1,35 +1,8 @@
 {
-  "generated_at": "2026-10-24T23:07:00.016150",
+  "generated_at": "2026-10-25T23:07:00.030516",
   "server_id": "783441128119730236",
-  "count": 12,
+  "count": 11,
   "events": [
-    {
-      "id": 104,
-      "thread_id": "1536301919788867614",
-      "title": "Pauper with Purpose",
-      "start_at": "2026-10-25T12:00:00+01:00",
-      "end_at": "2026-10-25T18:00:00+01:00",
-      "location_name": "45307",
-      "location_address": "45307 Essen-Stadtbezirke VII, Deutschland",
-      "location_city": "Essen",
-      "location_country": "Deutschland",
-      "location_lat": 51.4636356,
-      "location_lng": 7.096337399999999,
-      "location_state": "Nordrhein-Westfalen",
-      "location_url": "https://maps.google.com/?cid=2028856808341985376",
-      "location_osm_type": null,
-      "location_osm_id": null,
-      "location_place_id": "ChIJoaX604bduEcRYFhbkYTyJxw",
-      "fee_from": 10.0,
-      "fee_to": 13.0,
-      "fee_currency": "EUR",
-      "event_type": "Andere(r)",
-      "formats": [
-        "Pauper"
-      ],
-      "url": "https://www.pauperwithpurpose.de",
-      "image_url": "https://media.discordapp.net/attachments/1536299386319933501/1536300108101062656/WhatsApp_Image_2026-07-29_at_13.48.32.jpeg?ex=6a7ae678&is=6a7994f8&hm=3e676c572f3b968d1449b7a15dc6b25892b5ea020ab59317afb58f3d54fdb727&=&format=webp&width=724&height=1024"
-    },
     {
       "id": 153,
       "thread_id": "1562858075650531362",
