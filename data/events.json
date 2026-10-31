@@ -1,62 +1,8 @@
 {
-  "generated_at": "2026-10-30T23:07:00.028437",
+  "generated_at": "2026-10-31T16:00:02.601395",
   "server_id": "783441128119730236",
-  "count": 10,
+  "count": 9,
   "events": [
-    {
-      "id": 143,
-      "thread_id": "1557869551960588362",
-      "title": "\u00d6cher Modern Series v3",
-      "start_at": "2026-10-31T11:00:00+01:00",
-      "end_at": "2026-10-31T20:00:00+01:00",
-      "location_name": "Roermonder Str. 20",
-      "location_address": "Roermonder Str. 20, 52072 Aachen, Deutschland",
-      "location_city": "Aachen",
-      "location_country": "Deutschland",
-      "location_lat": 50.7827062,
-      "location_lng": 6.077084399999999,
-      "location_state": "Nordrhein-Westfalen",
-      "location_url": "https://maps.google.com/?cid=2871628409017136645",
-      "location_osm_type": null,
-      "location_osm_id": null,
-      "location_place_id": "ChIJ_-VyC3eZwEcRBfZiztIS2ic",
-      "fee_from": 20.0,
-      "fee_to": null,
-      "fee_currency": "EUR",
-      "event_type": "Andere(r)",
-      "formats": [
-        "Modern"
-      ],
-      "url": "https://melee.gg/Tournament/View/474792",
-      "image_url": "https://cdn.melee.gg/userphotos/brandimages/d406e5ba-f9d0-4dea-a932-011cdab8ede3.jpg"
-    },
-    {
-      "id": 152,
-      "thread_id": "1561046135949234412",
-      "title": "Pauper Saturday",
-      "start_at": "2026-10-31T14:00:00+02:00",
-      "end_at": "2026-10-31T18:00:00+02:00",
-      "location_name": "Lokki Game Store GmbH",
-      "location_address": "Nassauer Str. 8, 61440 Oberursel (Taunus), Deutschland",
-      "location_city": "Oberursel (Taunus)",
-      "location_country": "Deutschland",
-      "location_lat": 50.1992436,
-      "location_lng": 8.5867338,
-      "location_state": "Hessen",
-      "location_url": "https://www.lokkigamestore.de/",
-      "location_osm_type": null,
-      "location_osm_id": null,
-      "location_place_id": "ChIJX291qO6pvUcRzlAgcuQYzUk",
-      "fee_from": 5.0,
-      "fee_to": null,
-      "fee_currency": "EUR",
-      "event_type": null,
-      "formats": [
-        "Pauper"
-      ],
-      "url": "https://www.lokkigamestore.de/terminkalender",
-      "image_url": "https://le-cdn.website-editor.net/f34cd13cd01f487f98643ccc8847d5e9/dms3rep/multi/opt/Pauper+Collage-1920w.png"
-    },
     {
       "id": 142,
       "thread_id": "1557868183447150737",
@@ -164,6 +110,33 @@
       ],
       "url": "https://tcg-cabin.com/event/pauper-madness/",
       "image_url": null
+    },
+    {
+      "id": 156,
+      "thread_id": "1566119565698666592",
+      "title": "Pauper Saturday",
+      "start_at": "2026-11-14T14:00:00+02:00",
+      "end_at": "2026-11-14T18:00:00+02:00",
+      "location_name": "Lokki Game Store GmbH",
+      "location_address": "Nassauer Str. 8, 61440 Oberursel (Taunus), Deutschland",
+      "location_city": "Oberursel (Taunus)",
+      "location_country": "Deutschland",
+      "location_lat": 50.1992436,
+      "location_lng": 8.5867338,
+      "location_state": "Hessen",
+      "location_url": "https://www.lokkigamestore.de/",
+      "location_osm_type": null,
+      "location_osm_id": null,
+      "location_place_id": "ChIJX291qO6pvUcRzlAgcuQYzUk",
+      "fee_from": 5.0,
+      "fee_to": null,
+      "fee_currency": "EUR",
+      "event_type": null,
+      "formats": [
+        "Pauper"
+      ],
+      "url": "https://www.lokkigamestore.de/terminkalender",
+      "image_url": "https://le-cdn.website-editor.net/f34cd13cd01f487f98643ccc8847d5e9/dms3rep/multi/opt/Pauper+Collage-1920w.png"
     },
     {
       "id": 148,
