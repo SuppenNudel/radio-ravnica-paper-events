@@ -1,35 +1,8 @@
 {
-  "generated_at": "2026-10-31T23:07:00.009795",
+  "generated_at": "2026-11-01T23:07:00.038400",
   "server_id": "783441128119730236",
-  "count": 9,
+  "count": 8,
   "events": [
-    {
-      "id": 142,
-      "thread_id": "1557868183447150737",
-      "title": "\u00d6cher Pauper Series v3",
-      "start_at": "2026-11-01T11:00:00+01:00",
-      "end_at": "2026-11-01T20:00:00+01:00",
-      "location_name": "Roermonder Str. 20",
-      "location_address": "Roermonder Str. 20, 52072 Aachen, Deutschland",
-      "location_city": "Aachen",
-      "location_country": "Deutschland",
-      "location_lat": 50.7827062,
-      "location_lng": 6.077084399999999,
-      "location_state": "Nordrhein-Westfalen",
-      "location_url": "https://maps.google.com/?cid=2871628409017136645",
-      "location_osm_type": null,
-      "location_osm_id": null,
-      "location_place_id": "ChIJ_-VyC3eZwEcRBfZiztIS2ic",
-      "fee_from": 15.0,
-      "fee_to": null,
-      "fee_currency": "EUR",
-      "event_type": "Andere(r)",
-      "formats": [
-        "Pauper"
-      ],
-      "url": "https://melee.gg/Tournament/View/474799",
-      "image_url": "https://cdn.melee.gg/userphotos/brandimages/0e6544e1-09b9-4cfa-936a-fd6219ad3f64.jpg"
-    },
     {
       "id": 155,
       "thread_id": "1565394789145382948",
