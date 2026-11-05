@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-04T23:07:00.014632",
+  "generated_at": "2026-11-05T14:48:19.186244",
   "server_id": "783441128119730236",
-  "count": 9,
+  "count": 10,
   "events": [
     {
       "id": 155,
@@ -245,6 +245,33 @@
       ],
       "url": "https://forms.gle/3fixTWTPQoxKJLkv9",
       "image_url": "https://images-ext-1.discordapp.net/external/ydN1xxtZhkmpkQYcyYRWcWwJhI1bRsj4geHAa0Lomns/https/images.apollo.fyi/952872819581124608/2f6676b7-b295-4c54-9efc-aa2c0af58dcb.webp?format=webp&width=1091&height=1536"
+    },
+    {
+      "id": 158,
+      "thread_id": "1567913457024503942",
+      "title": "Pauper with Purpose #2",
+      "start_at": "2027-02-06T11:30:00+01:00",
+      "end_at": "2027-02-06T20:00:00+01:00",
+      "location_name": "Arbeiterwohlfahrt Kreisverband Essen e.V. Julius-Leber-Haus",
+      "location_address": "Meistersingerstra\u00dfe 50, 45307 Essen, Deutschland",
+      "location_city": "Essen",
+      "location_country": "Deutschland",
+      "location_lat": 51.4550056,
+      "location_lng": 7.0833401,
+      "location_state": "Nordrhein-Westfalen",
+      "location_url": "http://www.awo-essen.de/",
+      "location_osm_type": null,
+      "location_osm_id": null,
+      "location_place_id": "ChIJsbKiyZvduEcR-Ep7umPQkO0",
+      "fee_from": 10.0,
+      "fee_to": 20.0,
+      "fee_currency": "EUR",
+      "event_type": null,
+      "formats": [
+        "Pauper"
+      ],
+      "url": "https://pauperwithpurpose.de/",
+      "image_url": "https://imgur.com/a/i6WfCMD"
     }
   ]
 }
