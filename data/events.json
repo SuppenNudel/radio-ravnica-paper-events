@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-14T16:00:02.489473",
+  "generated_at": "2026-11-14T22:06:13.026681",
   "server_id": "783441128119730236",
-  "count": 9,
+  "count": 10,
   "events": [
     {
       "id": 148,
@@ -218,6 +218,33 @@
       ],
       "url": "https://mtg-in-gp.de/",
       "image_url": "https://cdn.discordapp.com/attachments/807753120175882240/1487449072100053112/Logo-big.png?ex=69c92e66&is=69c7dce6&hm=8c0c538bd0d1db2bc6c063d5e576cbac27f714b3599398d87627cb0815f56077&"
+    },
+    {
+      "id": 163,
+      "thread_id": "1571285144948707407",
+      "title": "Pauper opp K\u00f6lsch",
+      "start_at": "2027-01-16T10:00:00+01:00",
+      "end_at": null,
+      "location_name": "B\u00fcrgerzentrum Deutz",
+      "location_address": "Tempelstra\u00dfe 41-43, 50679 K\u00f6ln, Deutschland",
+      "location_city": "K\u00f6ln",
+      "location_country": "Deutschland",
+      "location_lat": 50.9348509,
+      "location_lng": 6.9733465,
+      "location_state": "Nordrhein-Westfalen",
+      "location_url": "http://www.buergerzentrum-deutz.de/",
+      "location_osm_type": null,
+      "location_osm_id": null,
+      "location_place_id": "ChIJnQVUfMklv0cR6HTFv5cO7J4",
+      "fee_from": 18.0,
+      "fee_to": null,
+      "fee_currency": "EUR",
+      "event_type": "Andere(r)",
+      "formats": [
+        "Pauper"
+      ],
+      "url": "https://melee.gg/Tournament/View/501104",
+      "image_url": "https://images.apollo.fyi/952872819581124608/01e32c12-5477-4bef-95c8-abf2f99fd8a3.webp"
     },
     {
       "id": 158,
