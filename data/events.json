@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-22T23:07:00.042164",
+  "generated_at": "2026-11-23T08:40:46.008644",
   "server_id": "783441128119730236",
-  "count": 6,
+  "count": 7,
   "events": [
     {
       "id": 164,
@@ -83,6 +83,33 @@
       ],
       "url": "https://forms.gle/3fixTWTPQoxKJLkv9",
       "image_url": "https://images-ext-1.discordapp.net/external/ydN1xxtZhkmpkQYcyYRWcWwJhI1bRsj4geHAa0Lomns/https/images.apollo.fyi/952872819581124608/2f6676b7-b295-4c54-9efc-aa2c0af58dcb.webp?format=webp&width=1091&height=1536"
+    },
+    {
+      "id": 165,
+      "thread_id": "1574343940071497782",
+      "title": "Christmas Chaos Commander 2026",
+      "start_at": "2026-12-06T11:30:00+01:00",
+      "end_at": null,
+      "location_name": "Hakenstra\u00dfe 20/20",
+      "location_address": "Hakenstra\u00dfe 20/20, 49074 Osnabr\u00fcck, Deutschland",
+      "location_city": "Osnabr\u00fcck",
+      "location_country": "Deutschland",
+      "location_lat": 52.2753717,
+      "location_lng": 8.042915599999999,
+      "location_state": "Niedersachsen",
+      "location_url": "https://maps.google.com/?q=Hakenstra%C3%9Fe+20/20,+49074+Osnabr%C3%BCck,+Deutschland&ftid=0x47b9e59469cb7d01:0x3cd5c3ccad3bde9",
+      "location_osm_type": null,
+      "location_osm_id": null,
+      "location_place_id": "Ei1IYWtlbnN0cmHDn2UgMjAvMjAsIDQ5MDc0IE9zbmFicsO8Y2ssIEdlcm1hbnkiHhocChYKFAoSCQF9y2mU5blHEbEoKf7eD_b2EgIyMA",
+      "fee_from": 15.0,
+      "fee_to": 20.0,
+      "fee_currency": "EUR",
+      "event_type": "Andere(r)",
+      "formats": [
+        "Commander"
+      ],
+      "url": "https://tcgunited.kurabu.com/de/events/6c80eb7d-4787-48e5-b496-99ea6800c5a6?overlay_close_url=https%3A%2F%2Ftcgunited.kurabu.com%2Fde%2Fevents%2Fclub%3FbyAttendee%3Dall%26byDateTime%3Dupcoming%26date%3D2026-12-13T23%253A00%253A00.000Z%26eventType%3D%257B%2522label%2522%253A%2522f%25C3%25BCr%2520alle%2522%252C%2522value%2522%253A%2522Public%2522%257D",
+      "image_url": "https://i.imgur.com/RgT813W.jpeg"
     },
     {
       "id": 161,
